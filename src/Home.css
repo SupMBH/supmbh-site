@@ -1,0 +1,8 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles pour l'animation de la galaxie */
+  
