@@ -10,8 +10,9 @@ function Projets() {
     fetch('https://api.github.com/users/SupMBH/repos')
       .then(response => response.json())
       .then(data => {
+        // Trier les dépôts par date de création (du plus récent au plus ancien)
         const sortedData = data.sort(
-          (a, b) => new Date(b.updated_at) - new Date(a.updated_at)
+          (a, b) => new Date(b.created_at) - new Date(a.created_at)
         );
         setRepos(sortedData);
         setLoading(false);
@@ -38,7 +39,9 @@ function Projets() {
           <span className="left-part">M</span>
           <span className="right-part">es Projets</span>
           <span className="crocodile-description">
-            Mes dépôts GitHub publics sont mis à jour en temps réel et distribués ici.
+            <span className="scrolling-text">
+              Mes dépôts GitHub publics sont mis à jour en temps réel et distribués ici.
+            </span>
           </span>
         </span>
       </h2>
@@ -50,6 +53,11 @@ function Projets() {
             <p>
               <strong>Langage :</strong>{' '}
               {repo.language ? repo.language : 'Non spécifié'}
+            </p>
+            {/* Afficher la date de création */}
+            <p>
+              <strong>Date de création :</strong>{' '}
+              {new Date(repo.created_at).toLocaleDateString('fr-FR')}
             </p>
             <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
               Voir le dépôt sur GitHub
