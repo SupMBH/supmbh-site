@@ -86,7 +86,7 @@ function Projets() {
   return (
     <section className="projets-section">
       <h2 className="projets-title">
-        My Repositories (updated on your first visit)
+        My public Repositories (Updated in real-time on your first visit)
       </h2>
       {usingMockData && (
         <p className="warning-message">
@@ -110,7 +110,7 @@ function Projets() {
               {new Date(repo.created_at).toLocaleDateString('fr-FR')}
             </p>
             <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-              Voir le dépôt sur GitHub
+            See it on GitHub
             </a>
           </div>
         ))}
