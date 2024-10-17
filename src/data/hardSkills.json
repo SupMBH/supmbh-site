@@ -1,15 +1,17 @@
 [
-    {
-      "title": "Programmation en JavaScript",
-      "description": "Maîtrise du langage JavaScript pour le développement web front-end et back-end."
-    },
-    {
-      "title": "Développement React",
-      "description": "Expérience dans la création d'applications web modernes avec React et son écosystème."
-    },
-    {
-      "title": "Base de données SQL",
-      "description": "Compétences en conception et manipulation de bases de données relationnelles avec SQL."
-    }
-  ]
-  
+  {
+    "title": "Programmation en JavaScript",
+    "description": "Maîtrise du langage JavaScript pour le développement web front-end et back-end.",
+    "link": "/skills/javascript"
+  },
+  {
+    "title": "Développement React",
+    "description": "Expérience dans la création d'applications web modernes avec React et son écosystème.",
+    "link": "/skills/react"
+  },
+  {
+    "title": "Base de données SQL",
+    "description": "Compétences en conception et manipulation de bases de données relationnelles avec SQL.",
+    "link": "/skills/sql"
+  }
+]

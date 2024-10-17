@@ -1,15 +1,17 @@
 [
-    {
-      "title": "Communication efficace",
-      "description": "Capacité à communiquer clairement et efficacement avec les membres de l'équipe et les clients."
-    },
-    {
-      "title": "Travail en équipe",
-      "description": "Expérience de collaboration avec des équipes multidisciplinaires pour atteindre des objectifs communs."
-    },
-    {
-      "title": "Résolution de problèmes",
-      "description": "Aptitude à analyser des situations complexes et à proposer des solutions innovantes."
-    }
-  ]
-  
+  {
+    "title": "Communication efficace",
+    "description": "Capacité à communiquer clairement et efficacement avec les membres de l'équipe et les clients.",
+    "link": "/skills/communication"
+  },
+  {
+    "title": "Travail en équipe",
+    "description": "Expérience de collaboration avec des équipes multidisciplinaires pour atteindre des objectifs communs.",
+    "link": "/skills/teamwork"
+  },
+  {
+    "title": "Résolution de problèmes",
+    "description": "Aptitude à analyser des situations complexes et à proposer des solutions innovantes.",
+    "link": "/skills/problem-solving"
+  }
+]

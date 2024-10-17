@@ -52,3 +52,18 @@
     }
   }
   
+  /* Style pour le lien enveloppant la carte */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:focus .card,
+.card-link:hover .card {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card-link:focus .card {
+  outline: 2px solid #d4af37;
+}
