@@ -46,4 +46,73 @@
       width: 100%;
     }
   }
-  
+
+/* La mâchoire de crocodile^^ */
+.projets-title {
+  position: relative;
+  display: inline-block;
+}
+
+.crocodile {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.left-part,
+.right-part {
+  display: inline-block;
+  font-size: 2rem; /* taille */
+  color: #333;
+}
+
+.right-part {
+  transform-origin: left center;
+  transition: transform 0.3s ease;
+}
+
+.crocodile:hover .right-part {
+  transform: rotate(-30deg);
+}
+
+.crocodile-description {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 10px);
+  transform: translateY(-50%) translateX(-100%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  color: #333; /* Couleur texte */
+  font-size: 1rem;
+  background-color: transparent; /* Supp du fond */
+  padding: 0; /* Supp du padding */
+  border: none; /* Supp de la bordure */
+  box-shadow: none; /* Supp de l'ombre */
+}
+
+.crocodile:hover .crocodile-description {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* couleur du texte lors du survol */
+.crocodile:hover .left-part,
+.crocodile:hover .right-part {
+  color: #d4af37;
+}
+
+/* Styles texte défilant */
+.crocodile-description .scrolling-text {
+  display: inline-block;
+  animation: scrollText 5s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
