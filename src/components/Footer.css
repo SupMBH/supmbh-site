@@ -1,0 +1,17 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #d4af37; /* Couleur gris doré */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
