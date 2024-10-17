@@ -7,21 +7,48 @@ function Projets() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch('https://api.github.com/users/SupMBH/repos')
-      .then(response => response.json())
-      .then(data => {
+    const fetchRepos = async () => {
+      try {
+        // Récupérer la liste des dépôts
+        const response = await fetch('https://api.github.com/users/SupMBH/repos');
+        const data = await response.json();
+
         // Trier les dépôts par date de création (du plus récent au plus ancien)
         const sortedData = data.sort(
           (a, b) => new Date(b.created_at) - new Date(a.created_at)
         );
-        setRepos(sortedData);
+
+        // Pour chaque dépôt, récupérer les langages utilisés
+        const reposWithLanguages = await Promise.all(
+          sortedData.map(async (repo) => {
+            try {
+              const languagesResponse = await fetch(repo.languages_url);
+              const languagesData = await languagesResponse.json();
+              const languages = languagesData ? Object.keys(languagesData) : [];
+              return {
+                ...repo,
+                languages,
+              };
+            } catch (error) {
+              console.error(`Erreur lors de la récupération des langages pour le dépôt ${repo.name}:`, error);
+              return {
+                ...repo,
+                languages: [],
+              };
+            }
+          })
+        );
+
+        setRepos(reposWithLanguages);
         setLoading(false);
-      })
-      .catch(error => {
+      } catch (error) {
         console.error('Erreur lors de la récupération des dépôts:', error);
         setError(true);
         setLoading(false);
-      });
+      }
+    };
+
+    fetchRepos();
   }, []);
 
   if (loading) {
@@ -46,15 +73,16 @@ function Projets() {
         </span>
       </h2>
       <div className="gallery">
-        {repos.map(repo => (
+        {repos.map((repo) => (
           <div key={repo.id} className="card" tabIndex="0">
             <h3>{repo.name}</h3>
             <p>{repo.description ? repo.description : 'Pas de description'}</p>
             <p>
-              <strong>Langage :</strong>{' '}
-              {repo.language ? repo.language : 'Non spécifié'}
+              <strong>Langages :</strong>{' '}
+              {repo.languages && repo.languages.length > 0
+                ? repo.languages.join(', ')
+                : 'Non spécifiés'}
             </p>
-            {/* Afficher la date de création */}
             <p>
               <strong>Date de création :</strong>{' '}
               {new Date(repo.created_at).toLocaleDateString('fr-FR')}
@@ -70,3 +98,4 @@ function Projets() {
 }
 
 export default Projets;
+
