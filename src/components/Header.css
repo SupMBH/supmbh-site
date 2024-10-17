@@ -1,0 +1,31 @@
+/* Styles pour le header */
+header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  /* Styles pour la navigation */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrer les liens */
+    gap: 2rem; /* Espacement entre les liens */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles pour les liens */
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: transform 0.1s ease, color 0.1s ease;
+  }
+  
+  /* Effet au survol */
+  .nav-links :hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
