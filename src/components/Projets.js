@@ -1,3 +1,5 @@
+// src/components/Projets.js
+
 import React, { useState, useEffect } from 'react';
 import './Projets.css';
 
@@ -30,7 +32,10 @@ function Projets() {
                 languages,
               };
             } catch (error) {
-              console.error(`Erreur lors de la récupération des langages pour le dépôt ${repo.name}:`, error);
+              console.error(
+                `Erreur lors de la récupération des langages pour le dépôt ${repo.name}:`,
+                error
+              );
               return {
                 ...repo,
                 languages: [],
@@ -61,17 +66,7 @@ function Projets() {
 
   return (
     <section className="projets-section">
-      <h2 className="projets-title">
-        <span className="crocodile">
-          <span className="left-part">M</span>
-          <span className="right-part">es Projets</span>
-          <span className="crocodile-description">
-            <span className="scrolling-text">
-              Mes dépôts GitHub publics sont mis à jour en temps réel et distribués ici.
-            </span>
-          </span>
-        </span>
-      </h2>
+      <h2 className="projets-title">Mes Projets (mis à jour lorsque vous avez cliqué sur la page)</h2>
       <div className="gallery">
         {repos.map((repo) => (
           <div key={repo.id} className="card" tabIndex="0">
@@ -98,4 +93,5 @@ function Projets() {
 }
 
 export default Projets;
+
 

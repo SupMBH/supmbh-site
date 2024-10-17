@@ -1,118 +1,70 @@
+/* src/components/Projets.css */
+
+/* Styles généraux */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  .card {
-    background-color: #f0f0f0; /* Couleur pastel */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width: 300px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.1s ease, box-shadow 0.1s ease; 
-  }
-  
-  .card:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
-  }
-  
-  .card h3 {
-    margin-top: 0;
-    color: #333;
-  }
-  
-  .card p {
-    color: #666;
-  }
-  
-  .card a {
-    display: inline-block;
-    margin-top: 1rem;
-    text-decoration: none;
-    color: #d4af37; /* Couleur gris doré */
-    font-weight: bold;
-  }
-  
-  .card a:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
-  }
-
-/* La mâchoire de crocodile^^ */
-.projets-title {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.crocodile {
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
+.card {
+  background-color: #f0f0f0; /* Couleur pastel */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.left-part,
-.right-part {
-  display: inline-block;
-  font-size: 2rem; /* taille */
+.card:hover,
+.card:focus {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card:focus {
+  outline: 2px solid #d4af37;
+}
+
+.card h3 {
+  margin-top: 0;
   color: #333;
 }
 
-.right-part {
-  transform-origin: left center;
-  transition: transform 0.3s ease;
+.card p {
+  color: #666;
 }
 
-.crocodile:hover .right-part {
-  transform: rotate(-30deg);
-}
-
-.crocodile-description {
-  position: absolute;
-  top: 50%;
-  left: calc(100% + 10px);
-  transform: translateY(-50%) translateX(-100%);
-  white-space: nowrap;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  color: #333; /* Couleur texte */
-  font-size: 1rem;
-  background-color: transparent; /* Supp du fond */
-  padding: 0; /* Supp du padding */
-  border: none; /* Supp de la bordure */
-  box-shadow: none; /* Supp de l'ombre */
-}
-
-.crocodile:hover .crocodile-description {
-  opacity: 1;
-  transform: translateY(-50%) translateX(0);
-}
-
-/* couleur du texte lors du survol */
-.crocodile:hover .left-part,
-.crocodile:hover .right-part {
-  color: #d4af37;
-}
-
-/* Styles texte défilant */
-.crocodile-description .scrolling-text {
+.card a {
   display: inline-block;
-  animation: scrollText 5s linear infinite;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #d4af37; /* Couleur gris doré */
+  font-weight: bold;
 }
 
-@keyframes scrollText {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
+.card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
   }
 }
+
+/* Style pour le titre */
+.projets-title {
+  text-align: left;
+  font-size: 2 rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Optionnel : style pour la section des projets */
+.projets-section {
+  padding: 2rem;
+}
+
