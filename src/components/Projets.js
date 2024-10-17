@@ -86,7 +86,7 @@ function Projets() {
   return (
     <section className="projets-section">
       <h2 className="projets-title">
-        Mes Projets (mis à jour lors de votre première visite)
+        My Repositories (updated on your first visit)
       </h2>
       {usingMockData && (
         <p className="warning-message">

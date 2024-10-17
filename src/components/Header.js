@@ -7,10 +7,10 @@ function Header() {
       <nav>
         <ul className="nav-links">
           <li>
-            <a href="/">Accueil</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/projets">Projets</a>
+            <a href="/projets">Repositories</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

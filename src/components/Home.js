@@ -7,7 +7,7 @@ function Home() {
       <Canvas>
         {/* animation de galaxie en 3D */}
       </Canvas>
-      <h1>Bienvenue sur mon site</h1>
+      <h1>welcome</h1>
     </div>
   );
 }
