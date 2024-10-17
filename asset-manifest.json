@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/supmbh-site/static/css/main.54969fbc.css",
+    "main.js": "/supmbh-site/static/js/main.8df01554.js",
+    "static/js/453.4990a0a6.chunk.js": "/supmbh-site/static/js/453.4990a0a6.chunk.js",
+    "index.html": "/supmbh-site/index.html",
+    "main.54969fbc.css.map": "/supmbh-site/static/css/main.54969fbc.css.map",
+    "main.8df01554.js.map": "/supmbh-site/static/js/main.8df01554.js.map",
+    "453.4990a0a6.chunk.js.map": "/supmbh-site/static/js/453.4990a0a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54969fbc.css",
+    "static/js/main.8df01554.js"
+  ]
+}
