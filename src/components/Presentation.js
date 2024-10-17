@@ -4,7 +4,7 @@ function Presentation() {
   return (
     <section>
       <h2>Présentation</h2>
-      <p>Voici une brève présentation de moi...</p>
+      <p>Voici ma brève présentation...</p>
     </section>
   );
 }
