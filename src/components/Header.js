@@ -11,10 +11,10 @@ function Header() {
             <a href="/">Home</a>
           </li>
           <li>
-            <Link to="/hard-skills">Compétences Techniques</Link>
+            <Link to="/hard-skills">Hard Skills</Link>
           </li>
           <li>
-            <Link to="/soft-skills">Compétences Relationnelles</Link>
+            <Link to="/soft-skills">Soft Skills</Link>
           </li>
           <li>
             <a href="/projets">Repositories</a>

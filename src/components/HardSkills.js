@@ -5,7 +5,7 @@ import hardSkillsData from '../data/hardSkills.json';
 function HardSkills() {
   return (
     <section className="skills-section">
-      <h2 className="skills-title">Compétences Techniques</h2>
+      <h2 className="skills-title">Hard Skills</h2>
       <div className="gallery">
         {hardSkillsData.map((skill, index) => (
           <div key={index} className="card" tabIndex="0">

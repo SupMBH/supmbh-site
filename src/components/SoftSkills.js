@@ -5,7 +5,7 @@ import softSkillsData from '../data/softSkills.json';
 function SoftSkills() {
   return (
     <section className="skills-section">
-      <h2 className="skills-title">Compétences Relationnelles</h2>
+      <h2 className="skills-title">Soft Skills</h2>
       <div className="gallery">
         {softSkillsData.map((skill, index) => (
           <div key={index} className="card" tabIndex="0">
