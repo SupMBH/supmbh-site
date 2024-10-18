@@ -9,7 +9,6 @@ header {
   list-style: none;
   display: flex;
   justify-content: center; /* Centrer les liens */
-  gap: 2rem; /* Espacement entre les liens */
   margin: 0;
   padding: 0;
 }
@@ -20,6 +19,7 @@ header {
   text-decoration: none;
   font-size: 1.5rem;
   transition: transform 0.1s ease, color 0.1s ease;
+  padding-left: 1em;
 }
 
 /* Effet au survol */
@@ -50,7 +50,6 @@ header {
     top: 60px;
     right: 0;
     background-color: var(--primary-color);;
-    padding: 1rem;
     width: 100%;
   }
 
@@ -61,7 +60,7 @@ header {
   /* Ajout des styles pour rendre toute la ligne cliquable */
   .nav-links li {
     list-style: none;
-    padding: 1rem;
+    padding-left: 1rem;
     width: 100%;           /* Occupe toute la largeur disponible */
     cursor: pointer;       /* Changer le curseur pour indiquer que c'est cliquable */
   }
