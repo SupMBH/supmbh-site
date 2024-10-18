@@ -2,16 +2,16 @@
   {
     "title": "Communication efficace",
     "description": "Capacité à communiquer clairement et efficacement avec les membres de l'équipe et les clients.",
-    "link": "/skills/communication"
+    "photo": "communication.png"
   },
   {
     "title": "Travail en équipe",
     "description": "Expérience de collaboration avec des équipes multidisciplinaires pour atteindre des objectifs communs.",
-    "link": "/skills/teamwork"
+    "link": "https://fr.wikipedia.org/wiki/Travail_d'%C3%A9quipe"
   },
   {
     "title": "Résolution de problèmes",
     "description": "Aptitude à analyser des situations complexes et à proposer des solutions innovantes.",
-    "link": "/skills/problem-solving"
+    "photo": "problem-solving.png"
   }
 ]
