@@ -20,11 +20,11 @@ function Header() {
           ☰
         </button>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li onClick={closeMenu}><a href="/">Home</a></li>
+          <li onClick={closeMenu}><Link to="/">Home</Link></li>
           <li onClick={closeMenu}><Link to="/hard-skills">Hard Skills</Link></li>
           <li onClick={closeMenu}><Link to="/soft-skills">Soft Skills</Link></li>
-          <li onClick={closeMenu}><a href="/projets">Repositories</a></li>
-          <li onClick={closeMenu}><a href="/contact">Contact</a></li>
+          <li onClick={closeMenu}><Link to="/projets">Repositories</Link></li>
+          <li onClick={closeMenu}><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>
