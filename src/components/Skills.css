@@ -41,7 +41,7 @@
   }
   
   .card p {
-    color: #666;
+    color: var(--text-p-color);
   }
   
   @media (max-width: 768px) {
