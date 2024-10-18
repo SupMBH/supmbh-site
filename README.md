@@ -74,3 +74,6 @@ Instructions pour exécuter le script :
 node scripts/generateMockData.js
 
 -> Le fichier mockRepos.json sera créé ou mis à jour avec les données actuelles des repos.
+
+GIThub page à :
+https://SupMBH.github.io/supmbh-site
