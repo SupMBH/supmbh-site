@@ -1,32 +1,32 @@
 /* Styles pour le header */
 header {
-    background-color: #d4af37;
-    padding: 1rem;
-  }
-  
-  /* Styles pour la navigation */
-  .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: center; /* Centrer les liens */
-    gap: 2rem; /* Espacement entre les liens */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Styles pour les liens */
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    transition: transform 0.1s ease, color 0.1s ease;
-  }
-  
-  /* Effet au survol */
-  .nav-links :hover {
-    transform: scale(1.2);
-  }
-  
+  background-color: #d4af37;
+  padding: 1rem;
+}
+
+/* Styles pour la navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Centrer les liens */
+  gap: 2rem; /* Espacement entre les liens */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles pour les liens */
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.1s ease, color 0.1s ease;
+}
+
+/* Effet au survol */
+.nav-links :hover {
+  transform: scale(1.2);
+}
+
 /* Styles pour le menu burger */
 .burger-menu {
   display: none;
@@ -58,10 +58,23 @@ header {
     display: flex;
   }
 
-  .nav-links a {
-    font-size: 1.5rem;
+  /* Ajout des styles pour rendre toute la ligne cliquable */
+  .nav-links li {
+    list-style: none;
     padding: 1rem;
-    color: #fff;
-    text-align: center;
+    width: 100%;           /* Occupe toute la largeur disponible */
+    cursor: pointer;       /* Changer le curseur pour indiquer que c'est cliquable */
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;           /* Le lien occupe toute la largeur de l'élément parent */
+    color: white;          /* Couleur du texte */
+    text-decoration: none; /* Pas de soulignement */
+    padding: 1rem 0;       /* Espacement pour rendre le lien plus large */
+  }
+
+  .nav-links li:hover {
+    background-color: rgba(255, 255, 255, 0.2);  /* Changement de fond au survol */
   }
 }

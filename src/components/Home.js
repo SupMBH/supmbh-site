@@ -1,12 +1,8 @@
 import React from 'react';
-import { Canvas } from '@react-three/fiber';
 
 function Home() {
   return (
-    <div className="home-container">
-      <Canvas>
-        {/* animation de galaxie en 3D */}
-      </Canvas>
+    <div className="home-container">    
       <h1>welcome</h1>
     </div>
   );

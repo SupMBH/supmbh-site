@@ -9,6 +9,10 @@ function Header() {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header>
       <nav>
@@ -16,11 +20,11 @@ function Header() {
           ☰
         </button>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><a href="/">Home</a></li>
-          <li><Link to="/hard-skills">Hard Skills</Link></li>
-          <li><Link to="/soft-skills">Soft Skills</Link></li>
-          <li><a href="/projets">Repositories</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li onClick={closeMenu}><a href="/">Home</a></li>
+          <li onClick={closeMenu}><Link to="/hard-skills">Hard Skills</Link></li>
+          <li onClick={closeMenu}><Link to="/soft-skills">Soft Skills</Link></li>
+          <li onClick={closeMenu}><a href="/projets">Repositories</a></li>
+          <li onClick={closeMenu}><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -28,3 +32,5 @@ function Header() {
 }
 
 export default Header;
+
+
