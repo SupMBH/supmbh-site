@@ -1,17 +1,65 @@
 [
   {
-    "title": "Programmation en JavaScript",
-    "description": "Maîtrise du langage JavaScript pour le développement web front-end et back-end.",
-    "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+    "title": "AI Prompt Engineering",
+    "description": "Expert in designing and optimizing prompts for advanced AI models, enabling precise, context-aware responses. Proficient in refining inputs to achieve desired outputs in NLP systems, including GPT and large language models.",
+    "link": "https://en.wikipedia.org/wiki/Prompt_engineering"
   },
   {
-    "title": "Développement React",
-    "description": "Expérience dans la création d'applications web modernes avec React et son écosystème.",
-    "photo": "react.png"
+    "title": "HTML5",
+    "description": "Proficiency in writing clean, semantic HTML5 code for structuring web content with accessibility and SEO best practices.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
-    "title": "Base de données SQL",
-    "description": "Compétences en conception et manipulation de bases de données relationnelles avec SQL.",
-    "link": "https://www.postgresql.org/"
+    "title": "CSS3 & Bootstrap",
+    "description": "Expertise in building responsive and modern web designs using CSS3 and frameworks like Bootstrap for grid systems, components, and utilities.",
+    "link": "https://getbootstrap.com/"
+  },
+  {
+    "title": "JavaScript Programming & Algorithm Design",
+    "description": "Strong command of JavaScript for front-end interactivity, back-end logic, including ES6+ features, asynchronous programming, and writing complex algorithms to solve various programming challenges.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "title": "React Development",
+    "description": "Proficient in React.js for building dynamic user interfaces, state management (with Hooks and Redux), and implementing component-based architecture.",
+    "link": "https://reactjs.org/"
+  },
+  {
+    "title": "Git & GitHub",
+    "description": "Version control expertise with Git, including branching, merging, and managing collaborative repositories on GitHub.",
+    "link": "https://github.com/"
+  },
+  {
+    "title": "Node.js & Express",
+    "description": "Building RESTful APIs and server-side applications using Node.js and Express, handling asynchronous code, middleware, and routing.",
+    "link": "https://nodejs.org/en/"
+  },
+  {
+    "title": "MongoDB & NoSQL",
+    "description": "Experience with MongoDB for NoSQL database management, handling document-based storage and data querying.",
+    "link": "https://www.mongodb.com/"
+  },
+  {
+    "title": "REST API Integration",
+    "description": "Designing and integrating RESTful APIs using Express, Axios for making HTTP requests, and managing asynchronous operations in full-stack applications.",
+    "link": "https://axios-http.com/"
+  },
+  {
+    "title": "Testing: Unit, Integration, and E2E",
+    "description": "Writing automated tests using Jest for unit, integration, and end-to-end testing to ensure code quality and functionality.",
+    "link": "https://jestjs.io/"
+  },
+  {
+    "title": "Migration: jQuery to React",
+    "description": "Transforming legacy web applications from jQuery to modern React components for better maintainability, performance, and scalability.",
+    "link": "https://reactjs.org/"
+  },
+  {
+    "title": "Proprietary Trading & Algo Systems",
+    "description": "8 years of trading with custom multi-layer indicators and automated systems in ProRealCode, Express, and MetaTrader. Private status.",
+    "link": "https://www.prorealcode.com/"
   }
 ]
+
+
+

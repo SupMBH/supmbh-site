@@ -1,17 +1,27 @@
 [
   {
-    "title": "Communication efficace",
-    "description": "Capacité à communiquer clairement et efficacement avec les membres de l'équipe et les clients.",
-    "photo": "communication.png"
+    "title": "Effective Communication",
+    "description": "Able to clearly communicate with team members and clients to ensure successful project outcomes.",
+    "link": "https://en.wikipedia.org/wiki/Communication"
   },
   {
-    "title": "Travail en équipe",
-    "description": "Expérience de collaboration avec des équipes multidisciplinaires pour atteindre des objectifs communs.",
-    "link": "https://fr.wikipedia.org/wiki/Travail_d'%C3%A9quipe"
+    "title": "Team Collaboration",
+    "description": "Experience working in multidisciplinary teams, ensuring efficient collaboration and meeting project goals.",
+    "link": "https://en.wikipedia.org/wiki/Teamwork"
   },
   {
-    "title": "Résolution de problèmes",
-    "description": "Aptitude à analyser des situations complexes et à proposer des solutions innovantes.",
-    "photo": "problem-solving.png"
+    "title": "Problem Solving",
+    "description": "Proficient at analyzing complex situations and proposing innovative solutions using logical reasoning and technical expertise.",
+    "link": "https://en.wikipedia.org/wiki/Problem_solving"
+  },
+  {
+    "title": "Adaptability & Flexibility",
+    "description": "Skilled at quickly adapting to new technologies and shifting priorities in fast-paced environments.",
+    "link": "https://en.wikipedia.org/wiki/Adaptation"
+  },
+  {
+    "title": "Time Management",
+    "description": "Ability to manage time effectively to deliver projects on schedule without sacrificing quality.",
+    "link": "https://en.wikipedia.org/wiki/Time_management"
   }
 ]
