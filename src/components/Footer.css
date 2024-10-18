@@ -1,8 +1,8 @@
 /* src/components/Footer.css */
 
 .footer {
-    background-color: #d4af37; /* Couleur gris doré */
-    color: #ffffff;
+  background-color: var(--primary-color);
+    color: var(--text-layout-color);
     text-align: center;
     padding: 1rem;
     position: fixed;
