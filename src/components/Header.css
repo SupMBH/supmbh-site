@@ -25,6 +25,7 @@ header {
 /* Effet au survol */
 .nav-links :hover {
   transform: scale(1.2);
+  /*color: #d4af37;*/
 }
 
 /* Styles pour le menu burger */
