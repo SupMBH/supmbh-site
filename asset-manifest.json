@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/supmbh-site/static/css/main.365f9b35.css",
-    "main.js": "/supmbh-site/static/js/main.291e4b9a.js",
+    "main.js": "/supmbh-site/static/js/main.36646190.js",
     "static/js/453.4990a0a6.chunk.js": "/supmbh-site/static/js/453.4990a0a6.chunk.js",
     "static/media/react.png": "/supmbh-site/static/media/react.4c87f1eeb5b23e52e5d8.png",
     "static/media/QRcodeSite.png": "/supmbh-site/static/media/QRcodeSite.93e7ecb32d8ff93b04a0.png",
     "index.html": "/supmbh-site/index.html",
     "main.365f9b35.css.map": "/supmbh-site/static/css/main.365f9b35.css.map",
-    "main.291e4b9a.js.map": "/supmbh-site/static/js/main.291e4b9a.js.map",
+    "main.36646190.js.map": "/supmbh-site/static/js/main.36646190.js.map",
     "453.4990a0a6.chunk.js.map": "/supmbh-site/static/js/453.4990a0a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.365f9b35.css",
-    "static/js/main.291e4b9a.js"
+    "static/js/main.36646190.js"
   ]
 }
