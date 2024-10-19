@@ -55,9 +55,19 @@
     "link": "https://reactjs.org/"
   },
   {
-    "title": "Site Performance & Accessibility",
-    "description": "Expertise in optimizing web performance using tools like Lighthouse to ensure fast load times, responsive layouts, and reduced resource consumption. Skilled in enhancing web accessibility, following WCAG guidelines to create inclusive and user-friendly experiences.",
-    "link": "https://developers.google.com/web/tools/lighthouse"
+    "title": "Web Accessibility",
+    "description": "Expert in applying WCAG standards to build inclusive and user-friendly websites for all users. This site currently scores 100% on accessibility metrics. Click for demonstration.",
+    "photo": "performanceSite.png"
+  },
+  {
+    "title": "Web Performance",
+    "description": "Specialized in optimizing site performance using tools like Lighthouse for faster load times and efficient resource management. This site consistently achieves 100% in all performance metrics. Click for demonstration.",
+    "photo": "performanceSite.png"
+  },
+  {
+    "title": "Web SEO Optimization",
+    "description": "Expert in implementing SEO strategies to enhance search engine visibility, driving organic traffic growth. This site currently achieves optimal SEO performance with top-tier rankings. Click for demonstration.",
+    "photo": "performanceSite.png"
   },
   {
     "title": "Proprietary Trading & Algo Systems",
