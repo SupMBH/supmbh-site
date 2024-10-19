@@ -23,7 +23,7 @@
 
    /* Effet au clic */
   .presentation-photo img.clicked {
-    transform: scale(1.8); 
+    transform: scale(1.6); 
     transition: transform 0.1s ease;
   }
   
