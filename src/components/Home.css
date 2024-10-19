@@ -20,6 +20,18 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.274);
     outline: 2px solid #d4af37;
   }
+
+  /* Effet au survol */
+  .presentation-photo img:hover {
+    transform: scale(1.2);
+    transition: transform 0.1s ease;
+  }
+
+  /* Effet au clic */
+  .presentation-photo img.clicked {
+    transform: scale(1.8); 
+    transition: transform 0.1s ease;
+}
   
   .presentation-text h2 {
     font-size: 2rem;
@@ -30,23 +42,11 @@
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
   }
-  /*
-  @media only screen and (max-width: 768px) {
-    .presentation-section {
-      flex-direction: column-reverse; 
-    }
-    .presentation-text {
-      width: 100%;
-    }
-    .presentation-photo img {
-      text-align: right;
-    }
-  }
-  */
+ 
   @media only screen and (max-width: 768px) {
     .presentation-section {
       flex-direction: column-reverse;
-      align-items: center; /* Centre le contenu horizontalement */
+      align-items: center; 
     }
   
     .presentation-photo {
@@ -54,7 +54,7 @@
     }
   
     .presentation-photo img {
-      margin: 0 auto; /* Centre l'image */
+      margin: 0 auto; 
       display: block;
     }
   
