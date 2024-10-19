@@ -6,7 +6,7 @@
   },
   {
     "title": "HTML5",
-    "description": "Proficiency in writing clean, semantic HTML5 code for structuring web content with accessibility and SEO best practices.",
+    "description": "Proficient in writing clean, semantic HTML5 code optimized for maintainability, operability, and readability by web crawlers. Focus on creating object-oriented, functional, and component-based structures that ensure scalability, ease of testing, and long-term flexibility.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
@@ -17,16 +17,16 @@
   {
     "title": "JavaScript Programming & Algorithm Design",
     "description": "Strong command of JavaScript for front-end interactivity, back-end logic, including ES6+ features, asynchronous programming, and writing complex algorithms to solve various programming challenges.",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    "link": "https://github.com/SupMBH/Dropdown"
   },
   {
-    "title": "React Development",
-    "description": "Proficient in React.js for building dynamic user interfaces, state management (with Hooks and Redux), and implementing component-based architecture.",
+    "title": "REACT Library",
+    "description": "Proficient in React.js for building dynamic, high-performance user interfaces with efficient state management using Hooks and REDUX. This site is an example, leveraging its component-based architecture to deliver a seamless, scalable, and responsive user experience.",
     "link": "https://reactjs.org/"
   },
   {
-    "title": "Git & GitHub",
-    "description": "Version control expertise with Git, including branching, merging, and managing collaborative repositories on GitHub.",
+    "title": "Git, GitHub & GitHub Pages",
+    "description": "Version control expertise with GIT, including branching, merging, and managing collaborative repositories on GitHub. This site is currently deployed online via GitHub Pages, ensuring seamless updates and continuous integration.",
     "link": "https://github.com/"
   },
   {
