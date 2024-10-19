@@ -1,0 +1,27 @@
+.presentation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: var(--background-color);
+  }
+  
+  .presentation-text {
+    width: 60%;
+  }
+  
+  .presentation-photo img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .presentation-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .presentation-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  

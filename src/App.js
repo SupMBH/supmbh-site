@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Presentation from './components/Presentation';
 import Projets from './components/Projets';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -17,8 +16,7 @@ function App() {
        
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/presentation" element={<Presentation />} />
+          <Route path="/" element={<Home />} />          
           <Route path="/hard-skills" element={<HardSkills />} />
           <Route path="/soft-skills" element={<SoftSkills />} />
           <Route path="/projets" element={<Projets />} />
