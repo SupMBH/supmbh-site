@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/supmbh-site/static/css/main.16d6bb2c.css",
+    "main.css": "/supmbh-site/static/css/main.873ff324.css",
     "main.js": "/supmbh-site/static/js/main.20022155.js",
     "static/js/453.4990a0a6.chunk.js": "/supmbh-site/static/js/453.4990a0a6.chunk.js",
     "static/media/maitrise.jpg": "/supmbh-site/static/media/maitrise.771ab87ccee8d4c70eeb.jpg",
@@ -14,12 +14,12 @@
     "static/media/timeM.png": "/supmbh-site/static/media/timeM.60190bb020a008473c22.png",
     "static/media/QRcodeSite.png": "/supmbh-site/static/media/QRcodeSite.93e7ecb32d8ff93b04a0.png",
     "index.html": "/supmbh-site/index.html",
-    "main.16d6bb2c.css.map": "/supmbh-site/static/css/main.16d6bb2c.css.map",
+    "main.873ff324.css.map": "/supmbh-site/static/css/main.873ff324.css.map",
     "main.20022155.js.map": "/supmbh-site/static/js/main.20022155.js.map",
     "453.4990a0a6.chunk.js.map": "/supmbh-site/static/js/453.4990a0a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16d6bb2c.css",
+    "static/css/main.873ff324.css",
     "static/js/main.20022155.js"
   ]
 }
