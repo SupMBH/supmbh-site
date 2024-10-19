@@ -2,6 +2,8 @@
 header {
   background-color: var(--primary-color);
   padding: 1rem;
+  position: relative; /* Ajouté pour permettre le z-index */
+  z-index: 1000;      /* Ajouté pour que le header soit au-dessus des cartes */
 }
 
 /* Styles pour la navigation */
@@ -50,8 +52,9 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: var(--primary-color);;
+    background-color: var(--primary-color);
     width: 100%;
+    z-index: 1000; /* Ajouté pour que le menu s'affiche au-dessus des cartes */
   }
 
   .nav-links.open {
@@ -69,7 +72,7 @@ header {
   .nav-links li a {
     display: block;
     width: 100%;           /* Le lien occupe toute la largeur de l'élément parent */
-    /*color: var(--text-layout-color);           Couleur du texte */
+    /*color: var(--text-layout-color);*/          /* Couleur du texte */
     text-decoration: none; /* Pas de soulignement */
     padding: 1rem 0;       /* Espacement pour rendre le lien plus large */
   }
