@@ -2,26 +2,26 @@
   {
     "title": "Effective Communication",
     "description": "Able to clearly communicate with team members and clients to ensure successful project outcomes.",
-    "link": "https://en.wikipedia.org/wiki/Communication"
+    "photo": "communic.png"
   },
   {
     "title": "Autonomous Project Management",
     "description": "Skilled in managing projects independently from strategy to execution, ensuring results without external supervision.",
-    "link": "https://en.wikipedia.org/wiki/Project_management"
+    "photo": "autonom.png"
   },
   {
     "title": "Problem Solving",
     "description": "Proficient at analyzing complex situations and proposing innovative solutions using logical reasoning and technical expertise.",
-    "link": "https://en.wikipedia.org/wiki/Problem_solving"
+    "photo": "problemS.png"
   },
   {
     "title": "Adaptability & Flexibility",
     "description": "Skilled at quickly adapting to new technologies and shifting priorities in fast-paced environments.",
-    "link": "https://en.wikipedia.org/wiki/Adaptation"
+    "photo": "adapt.png"
   },
   {
     "title": "Time Management",
     "description": "Ability to manage time effectively to deliver projects on schedule without sacrificing quality.",
-    "link": "https://en.wikipedia.org/wiki/Time_management"
+    "photo": "timeM.png"
   }
 ]
