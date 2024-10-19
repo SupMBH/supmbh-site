@@ -21,17 +21,11 @@
     outline: 2px solid #d4af37;
   }
 
-  /* Effet au survol */
-  .presentation-photo img:hover {
-    transform: scale(1.2);
-    transition: transform 0.1s ease;
-  }
-
-  /* Effet au clic */
+   /* Effet au clic */
   .presentation-photo img.clicked {
     transform: scale(1.8); 
     transition: transform 0.1s ease;
-}
+  }
   
   .presentation-text h2 {
     font-size: 2rem;
@@ -56,6 +50,7 @@
     .presentation-photo img {
       margin: 0 auto; 
       display: block;
+      
     }
   
     .presentation-text {
