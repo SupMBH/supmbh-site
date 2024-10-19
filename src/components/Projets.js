@@ -96,22 +96,32 @@ function Projets() {
       )}
       <div className="gallery">
         {repos.map((repo) => (
-          <div key={repo.id} className="card" tabIndex="0">
-            <h3>{repo.name}</h3>
-            <p>{repo.description ? repo.description : 'Pas de description'}</p>
-            <p>
-              <strong>Langages :</strong>{' '}
-              {repo.languages && repo.languages.length > 0
-                ? repo.languages.join(', ')
-                : 'Non spécifiés'}
-            </p>
-            <p>
-              <strong>Date de création :</strong>{' '}
-              {new Date(repo.created_at).toLocaleDateString('fr-FR')}
-            </p>
-            <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-            See it on GitHub
-            </a>
+          <div
+            key={repo.id}
+            className="card"
+            tabIndex="0"
+            onClick={() => window.open(repo.html_url, '_blank', 'noopener noreferrer')}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                window.open(repo.html_url, '_blank', 'noopener noreferrer');
+              }
+            }}
+          >
+            <div className="card-content">
+              <h3>{repo.name}</h3>
+              <p>{repo.description ? repo.description : 'Pas de description'}</p>
+              <p>
+                <strong>Langages :</strong>{' '}
+                {repo.languages && repo.languages.length > 0
+                  ? repo.languages.join(', ')
+                  : 'Non spécifiés'}
+              </p>
+              <p>
+                <strong>Date de création :</strong>{' '}
+                {new Date(repo.created_at).toLocaleDateString('fr-FR')}
+              </p>
+              <p className="a">See it on GitHub</p>
+            </div>
           </div>
         ))}
       </div>
@@ -120,5 +130,3 @@ function Projets() {
 }
 
 export default Projets;
-
-
