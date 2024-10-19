@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/supmbh-site/static/css/main.3949dd35.css",
-    "main.js": "/supmbh-site/static/js/main.b1b1122f.js",
+    "main.css": "/supmbh-site/static/css/main.d83e32c1.css",
+    "main.js": "/supmbh-site/static/js/main.a5009329.js",
     "static/js/453.4990a0a6.chunk.js": "/supmbh-site/static/js/453.4990a0a6.chunk.js",
     "static/media/maitrise.jpg": "/supmbh-site/static/media/maitrise.771ab87ccee8d4c70eeb.jpg",
     "static/media/trading.png": "/supmbh-site/static/media/trading.685573503ad7b92670a3.png",
     "static/media/QRcodeSite.png": "/supmbh-site/static/media/QRcodeSite.93e7ecb32d8ff93b04a0.png",
     "index.html": "/supmbh-site/index.html",
-    "main.3949dd35.css.map": "/supmbh-site/static/css/main.3949dd35.css.map",
-    "main.b1b1122f.js.map": "/supmbh-site/static/js/main.b1b1122f.js.map",
+    "main.d83e32c1.css.map": "/supmbh-site/static/css/main.d83e32c1.css.map",
+    "main.a5009329.js.map": "/supmbh-site/static/js/main.a5009329.js.map",
     "453.4990a0a6.chunk.js.map": "/supmbh-site/static/js/453.4990a0a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3949dd35.css",
-    "static/js/main.b1b1122f.js"
+    "static/css/main.d83e32c1.css",
+    "static/js/main.a5009329.js"
   ]
 }
