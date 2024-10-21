@@ -1,8 +1,20 @@
 [
   {
+    "id": 874398851,
+    "name": "supmbh-site",
+    "description": "Building a mobile-responsive dynamic portfolio hosted on GitHub Pages using React, HTML, CSS, and JavaScript. Features include well-structured components, dynamic data fetching from GitHub, and a system to bypass GitHub's hourly fetch limits to ensure seamless and up-to-date content.",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "created_at": "2024-10-17T18:54:10Z",
+    "html_url": "https://github.com/SupMBH/supmbh-site"
+  },
+  {
     "id": 867756582,
     "name": "Proto-BLD-Front",
-    "description": null,
+    "description": "Writing automated tests using Jest for unit, integration, and end-to-end testing to ensure code quality and functionality.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -14,7 +26,7 @@
   {
     "id": 830598807,
     "name": "a-n-LPP-master",
-    "description": null,
+    "description": "Developing an efficient search algorithm for a cooking recipe platform using advanced JavaScript and Bootstrap. Design a responsive user interface and implement dual search algorithms to parse and filter JSON data, with performance analysis to select the optimal solution while adhering to Green Code principles.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -36,7 +48,7 @@
   {
     "id": 825618253,
     "name": "whproto-main",
-    "description": null,
+    "description": "Transforming legacy web applications from jQuery to modern React components for better maintainability, performance, and scalability.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -48,7 +60,7 @@
   {
     "id": 824138273,
     "name": "ABproto-main",
-    "description": null,
+    "description": "Building a dynamic banking platform with a React frontend and Redux for state management, paired with a Node.js and MongoDB backend. Incorporates secure authentication, comprehensive API documentation via Swagger, and a modular architecture for scalable user management and financial transactions.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -60,7 +72,7 @@
   {
     "id": 820283727,
     "name": "SSproto-main",
-    "description": null,
+    "description": "Developing a comprehensive sports coaching analytics dashboard with React, integrating advanced visualizations and dynamic data fetching to provide insightful performance metrics. Focused on creating an interactive user profile page with detailed graphs and diagrams, supported by robust documentation for seamless collaboration.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -72,7 +84,7 @@
   {
     "id": 727117699,
     "name": "a-n-p6-Fisheye",
-    "description": null,
+    "description": "Developing an accessible and modular web platform for artists using JavaScript design patterns. Build a responsive prototype with HTML, CSS, and JavaScript, integrating features like data fetching, navigation between profiles, contact modals, media LightBoxes, and like management for an engaging user experience.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -84,7 +96,7 @@
   {
     "id": 712350218,
     "name": "a-n-p4",
-    "description": null,
+    "description": "JavaScript project for a gaming contest company, focused on building dynamic web pages using HTML, CSS, and Vanilla JavaScript. Develop a responsive form with robust validation and interactive event handling to create engaging user experiences.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -96,7 +108,7 @@
   {
     "id": 596495175,
     "name": "a-n-p7-kasa",
-    "description": null,
+    "description": "Creating a dynamic apartment rental website with React, utilizing props for reusable components, a visual carousel to showcase listings, and local state management for interactive and responsive user experiences.",
     "languages": [
       "JavaScript",
       "CSS",
@@ -106,37 +118,62 @@
     "html_url": "https://github.com/SupMBH/a-n-p7-kasa"
   },
   {
+    "id": 592226601,
+    "name": "API-N-Angular",
+    "description": "Developing a secure and scalable API for Piiquante’s “Hot Takes” web application using pure JavaScript. Implement robust CRUD operations, user authentication, and data validation while adhering to best security practices to protect user data and ensure compliance with regulations.",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "SCSS"
+    ],
+    "created_at": "2023-01-23T08:57:41Z",
+    "html_url": "https://github.com/SupMBH/API-N-Angular"
+  },
+  {
+    "id": 567827757,
+    "name": "AN_5_30102022",
+    "description": "Developing a dynamic e-commerce platform for Kanap using pure JavaScript. Integrate frontend and backend components by dynamically fetching API data, implementing interactive features on product, cart, and confirmation pages. Ensure maintainable and accessible code without using any JavaScript frameworks or libraries.",
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "created_at": "2022-11-18T17:13:54Z",
+    "html_url": "https://github.com/SupMBH/AN_5_30102022"
+  },
+  {
     "id": 407078192,
-    "name": "AntoineNaget_4_16092021",
-    "description": "LaChouetteAgence",
+    "name": "AN_4_16092021",
+    "description": "Optimizing La Chouette Agence's website to enhance search engine rankings and drive business growth. Conduct a thorough SEO audit, implement strategic improvements, boost site speed and accessibility, and ensure responsive design. Deliver comprehensive analysis and optimization reports alongside the updated source code.",
     "languages": [
       "CSS",
       "HTML",
       "PHP"
     ],
     "created_at": "2021-09-16T08:06:41Z",
-    "html_url": "https://github.com/SupMBH/AntoineNaget_4_16092021"
+    "html_url": "https://github.com/SupMBH/AN_4_16092021"
   },
   {
     "id": 395427952,
-    "name": "AntoineNaget_3_02082021",
-    "description": "P3",
+    "name": "AN_3_02082021",
+    "description": "Developing the mobile-first interface for OhMyFood's website using HTML, CSS/SASS, and JavaScript. Implement responsive design based on Figma prototypes, integrate CSS animations to enhance user experience, and manage version control with Git and GitHub for efficient collaboration and project management.",
     "languages": [
       "HTML",
       "CSS"
     ],
     "created_at": "2021-08-12T19:47:45Z",
-    "html_url": "https://github.com/SupMBH/AntoineNaget_3_02082021"
+    "html_url": "https://github.com/SupMBH/AN_3_02082021"
   },
   {
     "id": 379558756,
-    "name": "AntoineNaget_2_23062021",
-    "description": "OC - Transformez une maquette en site web",
+    "name": "AN_2_23062021",
+    "description": "Creating a responsive home page for a travel agency using HTML and CSS. Integrate designs from Figma prototypes for mobile, tablet, and desktop, focusing on writing clean, maintainable code to ensure adaptability across all devices.",
     "languages": [
       "HTML",
       "CSS"
     ],
     "created_at": "2021-06-23T10:05:34Z",
-    "html_url": "https://github.com/SupMBH/AntoineNaget_2_23062021"
+    "html_url": "https://github.com/SupMBH/AN_2_23062021"
   }
 ]
