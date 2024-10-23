@@ -16,15 +16,15 @@
   
   .presentation-photo img {
     width: 150px;
-    border-radius: 50%;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.274);
-    outline: 2px solid #d4af37;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: 2px solid #fff;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
   }
 
    /* Effet au clic */
   .presentation-photo img.clicked {
-    transform: scale(1.6); 
-    transition: transform 0.1s ease;
+    transform: scale(1.6);     
   }
   
   .presentation-text h2 {
