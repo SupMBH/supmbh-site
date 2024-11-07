@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/supmbh-site/static/css/main.dfde6460.css",
-    "main.js": "/supmbh-site/static/js/main.beb090e2.js",
+    "main.js": "/supmbh-site/static/js/main.53690d38.js",
     "static/js/453.4990a0a6.chunk.js": "/supmbh-site/static/js/453.4990a0a6.chunk.js",
     "static/media/maitrise.jpg": "/supmbh-site/static/media/maitrise.771ab87ccee8d4c70eeb.jpg",
     "static/media/performanceSite.png": "/supmbh-site/static/media/performanceSite.8b3e0b467392a8c219a0.png",
     "static/media/trading.png": "/supmbh-site/static/media/trading.685573503ad7b92670a3.png",
+    "static/media/Analy1.png": "/supmbh-site/static/media/Analy1.af62cddee95fc9adcbc4.png",
+    "static/media/Manag3.png": "/supmbh-site/static/media/Manag3.590de9121c699530bb00.png",
+    "static/media/Resi2.png": "/supmbh-site/static/media/Resi2.975c2351ef70e074def7.png",
     "static/media/profile.png": "/supmbh-site/static/media/profile.3c2c8a587810f2c951dc.png",
-    "static/media/communic.png": "/supmbh-site/static/media/communic.9700f3c55091d1ee9dd3.png",
-    "static/media/problemS.png": "/supmbh-site/static/media/problemS.bf1615c36009d69a77d0.png",
-    "static/media/autonom.png": "/supmbh-site/static/media/autonom.22ceb8612ed0e4012062.png",
-    "static/media/adapt.png": "/supmbh-site/static/media/adapt.1ec9554884f618ac5e0b.png",
-    "static/media/timeM.png": "/supmbh-site/static/media/timeM.60190bb020a008473c22.png",
+    "static/media/Emp4.png": "/supmbh-site/static/media/Emp4.ee2aa332d6b02a718db4.png",
+    "static/media/Aut5.png": "/supmbh-site/static/media/Aut5.7f2fd65ccabf736e7328.png",
     "static/media/QRcodeSite.png": "/supmbh-site/static/media/QRcodeSite.93e7ecb32d8ff93b04a0.png",
     "index.html": "/supmbh-site/index.html",
     "main.dfde6460.css.map": "/supmbh-site/static/css/main.dfde6460.css.map",
-    "main.beb090e2.js.map": "/supmbh-site/static/js/main.beb090e2.js.map",
+    "main.53690d38.js.map": "/supmbh-site/static/js/main.53690d38.js.map",
     "453.4990a0a6.chunk.js.map": "/supmbh-site/static/js/453.4990a0a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfde6460.css",
-    "static/js/main.beb090e2.js"
+    "static/js/main.53690d38.js"
   ]
 }
