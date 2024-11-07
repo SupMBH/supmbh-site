@@ -1,27 +1,27 @@
 [
   {
-    "title": "Effective Communication",
-    "description": "Able to clearly communicate with team members and clients to ensure successful project outcomes.",
+    "title": "Analytical, Creative & Systemic Thinking",
+    "description": "Logical and innovative solutions in complex systems",
     "photo": "communic.png"
   },
   {
-    "title": "Autonomous Project Management",
-    "description": "Skilled in managing projects independently from strategy to execution, ensuring results without external supervision.",
+    "title": "Resilience, Flexibility, Agility",
+    "description": "Quick adaptation to change and obstacle management in dynamic environments",
     "photo": "autonom.png"
   },
   {
-    "title": "Problem Solving",
-    "description": "Proficient at analyzing complex situations and proposing innovative solutions using logical reasoning and technical expertise.",
+    "title": "Management & Leadership",
+    "description": "Time and team management to meet goals on schedule, optimizing performance and collaboration",
     "photo": "problemS.png"
   },
   {
-    "title": "Adaptability & Flexibility",
-    "description": "Skilled at quickly adapting to new technologies and shifting priorities in fast-paced environments.",
+    "title": "Empathetic Communication",
+    "description": "Active link with team/clients to ensure project success and address needs and issues",
     "photo": "adapt.png"
   },
   {
-    "title": "Time Management",
-    "description": "Ability to manage time effectively to deliver projects on schedule without sacrificing quality.",
+    "title": "Autonomy",
+    "description": "Independent management from strategy to execution, curiosity and learning",
     "photo": "timeM.png"
   }
 ]
