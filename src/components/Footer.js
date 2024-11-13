@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>SupMBH &copy; {new Date().getFullYear()}</p>
+      <p>Antoine Naget  &copy; {new Date().getFullYear()}</p>
     </footer>
   );
 }
