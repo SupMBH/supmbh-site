@@ -1,5 +1,25 @@
 [
   {
+    "title": "Microsoft 365",
+    "description": "Expertise in the complete Microsoft 365 ecosystem, including Teams, SharePoint, Power Automate, and advanced Excel. Proficiency in optimizing collaborative processes, structuring workspaces, and automating repetitive tasks. A proven ability to transform Microsoft 365 into a strategic asset for streamlining workflows and enhancing team productivity.",
+    "link": "https://www.microsoft365.com"
+  },
+  {
+    "title": "Microsoft Power Platform",
+    "description": "Proficient in leveraging Microsoft’s Power Platform to design custom applications, automate complex workflows, and deliver impactful data visualizations. Expertise in extracting actionable insights with Power BI, crafting personalized solutions with Power Apps, and streamlining processes with Power Automate. A comprehensive platform driving digital transformation and operational efficiency.",
+    "link": "https://www.microsoft.com/fr-fr/power-platform"
+  },
+  {
+    "title": "Project Management Tools and Methodologies",
+    "description": "Expertise in managing projects using industry-leading tools such as Jira, Trello, and Microsoft Project. Proficiency in leveraging Power BI for data-driven decision-making and creating dynamic dashboards to track KPIs and project milestones. Familiarity with Agile and Scrum methodologies to ensure flexibility and efficiency in project delivery. Strong ability to coordinate cross-functional teams, manage timelines, and ensure alignment with strategic objectives.",
+    "link": "https://www.microsoft.com/fr-fr/power-platform/products/power-bi"
+  },
+  {
+    "title": "Technical IT Expertise",
+    "description": "Proficiency in diagnosing and resolving SOFTWARE issues across various operating systems and platforms. Expertise in HARDWARE troubleshooting, including assembling, upgrading, and configuring PCs for optimal performance. Extensive experience in building custom PCs tailored to specific needs, such as high-performance gaming or professional workloads. Strong ability to identify and address technical bottlenecks, optimize system configurations, and ensure seamless integration of hardware and software components.",
+    "photo": "technicalIT.png"
+  },
+  {
     "title": "AI Prompt Engineering",
     "description": "Expert in designing and optimizing prompts for advanced AI models, enabling precise, context-aware responses. Proficient in refining inputs to achieve desired outputs in NLP systems, including GPT and large language models.",
     "link": "https://en.wikipedia.org/wiki/Prompt_engineering"
