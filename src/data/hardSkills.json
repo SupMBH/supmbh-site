@@ -1,5 +1,15 @@
 [
   {
+    "title": "Software Development & Design",
+    "description": "Software Developer & Designer, holding a Level 6 (International) diploma from OCR (Academy of Paris). Skilled in full-stack development, including React, Node.js, JavaScript, MongoDB, and RESTful API architecture. Experienced in software design, performance optimization, and scalable system integration. Strong expertise in automated testing, Agile methodologies, and software lifecycle management.",
+    "link": "https://supmbh.github.io/supmbh-site/#/projets"
+  },
+  {
+    "title": "Web Development & Integration",
+    "description": "Web Developer & Integrator, holding a Level 5 (International) diploma from OCR (Academy of Paris). Proficient in front-end and back-end development, including React, Node.js, JavaScript, MongoDB, API integrations... Experienced in building scalable web applications, ensuring SEO optimization, accessibility (WCAG standards), and high-performance web architectures.",
+    "link": "https://supmbh.github.io/supmbh-site/#/projets"
+  },
+  {
     "title": "Microsoft 365",
     "description": "Expertise in the complete Microsoft 365 ecosystem, including Teams, SharePoint, Power Automate, and advanced Excel. Proficiency in optimizing collaborative processes, structuring workspaces, and automating repetitive tasks. A proven ability to transform Microsoft 365 into a strategic asset for streamlining workflows and enhancing team productivity.",
     "link": "https://www.microsoft365.com"
