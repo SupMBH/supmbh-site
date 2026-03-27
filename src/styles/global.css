@@ -1,0 +1,158 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   GLOBAL — Variables, reset, utilities
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --bg-deep: #0D1B2A;
+  --bg-card: #112240;
+  --accent: #00B4D8;
+  --accent-light: #90E0EF;
+  --accent-glow: rgba(0, 180, 216, 0.15);
+  --white: #E6F1FF;
+  --text: #CCD6F6;
+  --text-muted: #8892B0;
+  --divider: #1D3461;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --max-w: 1100px;
+  --px: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-deep);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ── Focus visible ─────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ── Skip link ─────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background: var(--accent);
+  color: var(--bg-deep);
+  padding: 0.5rem 1rem;
+  z-index: 200;
+  font-weight: 600;
+  border-radius: 0 0 8px 0;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ── Section container ─────────────────────────── */
+.section {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 5rem var(--px) 2rem;
+}
+
+/* ── Section title ─────────────────────────────── */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-title::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 1.5rem;
+  background: var(--accent);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--divider);
+}
+
+/* ── Buttons ───────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  text-decoration: none;
+  transition: all 0.25s;
+  border: none;
+  cursor: pointer;
+}
+
+/* ── Fade-in animation ─────────────────────────── */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Pulse dot ─────────────────────────────────── */
+.pulse {
+  width: 8px;
+  height: 8px;
+  background: #00cc88;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse-anim 2s infinite;
+}
+
+@keyframes pulse-anim {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
