@@ -225,9 +225,9 @@ export default function Hero() {
         <p className="hero-subtitle stagger-2">{profile.tagline}</p>
 
         <p className="hero-personal stagger-3">
-          Je crois qu'un bon projet de conformité ou de transformation se pilote
-          avec autant de rigueur technique que d'écoute terrain. C'est cette
-          conviction qui guide chacune de mes missions depuis 15 ans.
+          Un bon projet de conformité, de transformation IT, se pilote
+          avec autant de rigueur technique que de leviers terrain. Cette
+          conviction guide mes missions depuis 15 ans.
         </p>
 
         <p className="hero-location stagger-4">{profile.location}</p>
