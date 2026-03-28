@@ -145,6 +145,22 @@
   background: rgba(0, 180, 216, 0.05);
 }
 
+/* ── Photo ─────────────────────────────────────── */
+.hero-photo-wrapper {
+  margin-bottom: 1.25rem;
+}
+
+.hero-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 40px rgba(0, 180, 216, 0.25);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
 /* ── Kinetic name ──────────────────────────────── */
 .hero-name {
   font-size: clamp(2.5rem, 7vw, 4.2rem);
@@ -179,19 +195,23 @@
 }
 
 /* ── Staggered reveals for other elements ──────── */
+.stagger-0,
 .stagger-1,
 .stagger-2,
 .stagger-3,
-.stagger-4 {
+.stagger-4,
+.stagger-5 {
   opacity: 0;
   transform: translateY(16px);
   transition: none;
 }
 
-.hero--loaded .stagger-1 { animation: stagger-in 0.6s ease-out 0.15s forwards; }
-.hero--loaded .stagger-2 { animation: stagger-in 0.6s ease-out 1.3s forwards; }
-.hero--loaded .stagger-3 { animation: stagger-in 0.6s ease-out 1.5s forwards; }
-.hero--loaded .stagger-4 { animation: stagger-in 0.6s ease-out 1.7s forwards; }
+.hero--loaded .stagger-0 { animation: stagger-in 0.6s ease-out 0.05s forwards; }
+.hero--loaded .stagger-1 { animation: stagger-in 0.6s ease-out 0.2s forwards; }
+.hero--loaded .stagger-2 { animation: stagger-in 0.6s ease-out 1.4s forwards; }
+.hero--loaded .stagger-3 { animation: stagger-in 0.6s ease-out 1.6s forwards; }
+.hero--loaded .stagger-4 { animation: stagger-in 0.6s ease-out 1.8s forwards; }
+.hero--loaded .stagger-5 { animation: stagger-in 0.6s ease-out 2.0s forwards; }
 
 @keyframes stagger-in {
   to {
@@ -200,11 +220,21 @@
   }
 }
 
-/* ── Subtitle / location ───────────────────────── */
+/* ── Subtitle / personal / location ────────────── */
 .hero-subtitle {
   font-size: 1.15rem;
   color: var(--text-muted);
   margin-bottom: 1rem;
+}
+
+.hero-personal {
+  font-size: 0.95rem;
+  color: var(--text);
+  max-width: 580px;
+  margin: 0 auto 1.25rem;
+  line-height: 1.7;
+  font-style: italic;
+  opacity: 0.85;
 }
 
 .hero-location {
@@ -788,7 +818,19 @@
 .site-footer {
   text-align: center;
   padding: 2rem var(--px);
+  border-top: 1px solid var(--divider);
+}
+
+.footer-main {
   font-size: 0.8rem;
   color: var(--text-muted);
-  border-top: 1px solid var(--divider);
+  margin-bottom: 0.4rem;
+}
+
+.footer-credit {
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  color: var(--accent);
+  opacity: 0.6;
+  letter-spacing: 0.03em;
 }
