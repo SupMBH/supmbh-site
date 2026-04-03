@@ -2,6 +2,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Expertise from './components/Expertise';
+import VisionDpo from './components/VisionDpo';
 import Experience from './components/Experience';
 import Formations from './components/Formations';
 import Skills from './components/Skills';
@@ -20,6 +21,7 @@ export default function App() {
         <Hero />
         <About />
         <Expertise />
+        <VisionDpo />
         <Experience />
         <Formations />
         <Skills />

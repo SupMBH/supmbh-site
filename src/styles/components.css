@@ -416,6 +416,155 @@
   border: 1px solid rgba(0, 180, 216, 0.2);
 }
 
+/* ── Vision DPO ────────────────────────────────── */
+.dpo-intro {
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.dpo-intro p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text);
+}
+
+.dpo-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.dpo-block {
+  background: var(--bg-card);
+  border: 1px solid var(--divider);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.3s;
+}
+
+.dpo-block:hover {
+  border-color: rgba(0, 180, 216, 0.4);
+}
+
+.dpo-block-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.dpo-block-header:hover {
+  background: rgba(0, 180, 216, 0.05);
+}
+
+.dpo-block-number {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.dpo-block-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.dpo-block-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--white);
+  flex: 1;
+}
+
+.dpo-block-toggle {
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  color: var(--accent);
+  transition: transform 0.3s;
+  flex-shrink: 0;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.dpo-block-toggle.open {
+  transform: rotate(45deg);
+}
+
+.dpo-block-body {
+  padding: 0 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: dpo-expand 0.3s ease-out;
+}
+
+@keyframes dpo-expand {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dpo-block-section {
+  padding-left: 1rem;
+  border-left: 2px solid var(--divider);
+}
+
+.dpo-block-section:last-child {
+  border-left-color: var(--accent);
+}
+
+.dpo-block-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3rem;
+}
+
+.dpo-block-section p {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.dpo-conclusion {
+  max-width: 700px;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  text-align: left;
+}
+
+.dpo-conclusion p {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .dpo-block-header {
+    padding: 0.85rem 1rem;
+  }
+
+  .dpo-block-title {
+    font-size: 0.88rem;
+  }
+}
+
 /* ── Timeline ──────────────────────────────────── */
 .timeline {
   position: relative;

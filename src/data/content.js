@@ -1,3 +1,5 @@
+import { CURRENT_YEAR } from './year';
+
 export const presentation = `Double profil rare alliant Droit du numérique (Bac+5, IEJ Aix-Marseille) et Développement Logiciel (Bac+4, RNCP niv. 6). 15 ans de terrain multi-acteurs — industrie internationale, retail national, formation d'équipes — m'ont forgé une vision opérationnelle de la conformité, de la gouvernance SI et de la transformation digitale. Je combine la rigueur juridique et la compréhension technique pour piloter des projets complexes de bout en bout.`;
 
 export const expertises = [
@@ -116,7 +118,7 @@ export const formations = [
   {
     title: 'Formation RGPD – CNIL',
     org: 'CNIL · Certification',
-    date: '2026',
+    date: String(CURRENT_YEAR),
   },
 ];
 
@@ -153,6 +155,7 @@ export const differentiators = [
 export const navLinks = [
   { href: '#about', label: 'Profil' },
   { href: '#expertise', label: 'Expertises' },
+  { href: '#vision-dpo', label: 'Vision DPO' },
   { href: '#experience', label: 'Parcours' },
   { href: '#formations', label: 'Formations' },
   { href: '#skills', label: 'Compétences' },
