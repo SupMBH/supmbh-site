@@ -225,8 +225,8 @@ export default function Hero() {
         <p className="hero-subtitle stagger-2">{profile.tagline}</p>
 
         <p className="hero-personal stagger-3">
-          Un projet de conformité ou de transformation IT se pilote avec la même exigence  
-          technique que d'aptitudes terrain: accompagnement du changement, pédagogie. 
+          Un projet de conformité ou de transformation IT se pilote avec autant d'exigences  
+          techniques que d'aptitudes terrain: accompagnement du changement, pédagogie. 
           Cette conviction, associée à mon plaisir d'enseigner et former, guident mes missions depuis 15 ans.
         </p>
 
