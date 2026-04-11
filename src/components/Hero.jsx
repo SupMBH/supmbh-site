@@ -226,8 +226,8 @@ export default function Hero() {
 
         <p className="hero-personal stagger-3">
           Un projet de conformité ou de transformation IT se pilote avec la même exigence  
-          technique que de veritables leviers terrain: accompagnement du changement,
-          pédagogie. Cette conviction, associée à mon plaisir d'enseigner et former, guident mes missions depuis 15 ans.
+          technique que d'aptitudes terrain: accompagnement du changement, pédagogie. 
+          Cette conviction, associée à mon plaisir d'enseigner et former, guident mes missions depuis 15 ans.
         </p>
 
         <p className="hero-location stagger-4">{profile.location}</p>
