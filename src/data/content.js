@@ -61,7 +61,7 @@ export const experiences = [
     bullets: [
       'Conseil RGPD/NIS2 pour PME : analyse des traitements, politiques de confidentialité, conformité WCAG',
       'AMOA & transformation digitale : cahiers des charges, déploiement Agile, intégration APIs REST',
-      'Formations IA & Prompt Engineering · Soutien technique et enseignement (informatique, lettres modernes)',
+      'Formations IA & Prompt Engineering · Soutien technique et enseignement (informatique, bonnes pratiques)',
       '2 diplômes RNCP Bac+4 + Certification RGPD CNIL 6/6 modules · scores : 100/100/100/93/90/90 %',
     ],
   },
