@@ -226,7 +226,7 @@ export default function Hero() {
 
         <p className="hero-personal stagger-3">
           Un projet de conformité ou de transformation IT se pilote avec autant d’exigence technique que d’aptitudes terrain : 
-          accompagnement du changement, pédagogie et formation.
+          accompagnement du changement, pédagogie et transmission de compétences.
           Cette conviction, associée à mon plaisir d’enseigner, guide mes missions depuis 15 ans.
         </p>
 
