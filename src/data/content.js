@@ -116,9 +116,9 @@ export const formations = [
     date: '2004',
   },
   {
-    title: 'Formation RGPD – CNIL',
-    org: 'CNIL · Certification',
-    date: String(CURRENT_YEAR),
+    title: 'Certification RGPD – CNIL',
+    org: 'CNIL · 6/6 modules validés · scores : 100/100/100/93/90/90 %',
+    date: '04/2026',
   },
 ];
 
