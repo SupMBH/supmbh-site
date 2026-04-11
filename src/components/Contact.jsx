@@ -77,8 +77,7 @@ export default function Contact() {
       <div className="contact-box">
         <h3>Travaillons ensemble</h3>
         <p>
-          Disponible immédiatement pour un poste en CDI dans les domaines
-          DPO, Chef de Projet IT ou Gouvernance SI.
+          Disponible immédiatement · CDI · DPO · Chef de Projet IT · Gouvernance SI · Formation & Enseignement
         </p>
 
         <div className="contact-links">

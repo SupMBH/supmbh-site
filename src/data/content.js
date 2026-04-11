@@ -55,13 +55,14 @@ export const expertises = [
 
 export const experiences = [
   {
-    title: 'Consultant IT / Formateur – Gouvernance & Transformation Digitale',
+    title: 'Consultant IT / Formateur – Gouvernance, Conformité & Formation',
     org: 'Indépendant',
     period: "2023 – Aujourd'hui",
     bullets: [
-      'Conseil RGPD pour PME : analyse des traitements, rédaction de politiques de confidentialité, conformité WCAG',
-      'AMOA : analyse besoins, cahiers des charges, déploiement Agile, intégration APIs REST',
-      'Formation équipes IA & Prompt Engineering · 2 diplômes RNCP Bac+4 obtenus · 19 soutenances validées',
+      'Conseil RGPD/NIS2 pour PME : analyse des traitements, politiques de confidentialité, conformité WCAG',
+      'AMOA & transformation digitale : cahiers des charges, déploiement Agile, intégration APIs REST',
+      'Formations IA & Prompt Engineering · Soutien technique et enseignement (informatique, lettres modernes)',
+      '2 diplômes RNCP Bac+4 + Certification RGPD CNIL 6/6 modules · scores : 100/100/100/93/90/90 %',
     ],
   },
   {
