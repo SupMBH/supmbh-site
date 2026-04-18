@@ -68,7 +68,7 @@ export const experiences = [
   {
     title: 'Chef de Projet IT & Responsable Conformité',
     org: 'F.K.D',
-    period: '2017 – 2022',
+    period: '2017 – 2023',
     bullets: [
       'Déploiement ERP complet (production, RH, stocks, comptabilité) en environnement industriel international',
       'Réduction de 10% des pertes matière via optimisation des processus et tableaux de bord Power BI',

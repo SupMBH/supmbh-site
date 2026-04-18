@@ -63,7 +63,18 @@ export const experiences = [
       'GDPR and AI Act consulting: audits, DPIA, privacy policies, compliant AI deployments in Europe',
       'AI & Prompt Engineering training for technical and business teams · cybersecurity awareness',
       'Full-stack development (Python, React, Node.js) with focus on API integration and no-code automation (n8n, Make.com)',
-      '15 years of prior experience in international industrial and retail project management — ERP deployments, multi-stakeholder coordination, change management',
+    
+    ],
+  },
+  {
+    title: 'IT Project Manager & Compliance Lead',
+    org: 'F.K.D',
+    period: '2017 – 2023',
+    bullets: [
+      'Full ERP deployment (production, HR, inventory, accounting) in an international industrial environment',
+      'Reduced material losses by 10% through process optimization and Power BI dashboards',
+      'Defined IT security policy, documented data processing activities, managed access and incidents',
+      'Multi-stakeholder coordination: management, technical teams, vendors · change management',
     ],
   },
   {
