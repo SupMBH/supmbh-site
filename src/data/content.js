@@ -81,7 +81,7 @@ export const experiences = [
     org: 'Leroy Merlin',
     period: '2010 – 2017',
     bullets: [
-      '7M€+ de chiffre d\'affaires généré sur projets de rénovation et construction de maisons complètes',
+      '+4M€ documentés de chiffre d\'affaires généré sur projets de rénovation et construction de maisons complètes',
       '#1 France fidélisation 2 années consécutives sur 30 000+ employés',
       'Interface unique client orchestrant tous les corps de métier (gros œuvre, second œuvre, finitions)',
       'Consultative selling haut de gamme sur projets complexes multi-parties prenantes',

@@ -82,7 +82,7 @@ export const experiences = [
     org: 'Leroy Merlin',
     period: '2010 – 2017',
     bullets: [
-      '€7M+ in total project revenue on full home renovation and construction projects',
+      '€4M+ in documentedenue on full home renovation and construction projects',
       'Ranked #1 in France for 2 consecutive years on customer loyalty, out of 30,000+ employees',
       'Single point of contact orchestrating every trade (structural work, carpentry, electrical, plumbing, finishing)',
       'High-end consultative selling on complex multi-stakeholder projects',
