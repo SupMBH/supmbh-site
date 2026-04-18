@@ -1,31 +1,39 @@
 import { useState } from 'react';
 import { useScrolled } from '../hooks/useScrolled';
-import { navLinks } from '../data/content';
+import { useLanguage } from '../context/LanguageContext';
+import { getNavLinks } from '../data/i18n';
+import LanguageToggle from './LanguageToggle';
 
 export default function Nav() {
   const scrolled = useScrolled();
   const [open, setOpen] = useState(false);
+  const { lang } = useLanguage();
+
+  const navLinks = getNavLinks(lang);
 
   return (
     <nav
       className={`site-nav${scrolled ? ' scrolled' : ''}`}
       role="navigation"
-      aria-label="Navigation principale"
+      aria-label={lang === 'fr' ? 'Navigation principale' : 'Main navigation'}
     >
       <div className="nav-inner">
-        <a href="#" className="nav-logo" aria-label="Retour en haut">
+        <a href="#" className="nav-logo" aria-label={lang === 'fr' ? 'Retour en haut' : 'Back to top'}>
           A.N
         </a>
 
-        <button
-          className="burger"
-          onClick={() => setOpen(!open)}
-          aria-expanded={open}
-          aria-controls="nav-menu"
-          aria-label="Menu de navigation"
-        >
-          {open ? '✕' : '☰'}
-        </button>
+        <div className="nav-right">
+          <LanguageToggle />
+          <button
+            className="burger"
+            onClick={() => setOpen(!open)}
+            aria-expanded={open}
+            aria-controls="nav-menu"
+            aria-label={lang === 'fr' ? 'Menu de navigation' : 'Navigation menu'}
+          >
+            {open ? '✕' : '☰'}
+          </button>
+        </div>
 
         <ul
           className={`nav-links${open ? ' open' : ''}`}

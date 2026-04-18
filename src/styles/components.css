@@ -983,3 +983,48 @@
   opacity: 0.6;
   letter-spacing: 0.03em;
 }
+
+/* ═══ LANGUAGE TOGGLE ═══ */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: transparent;
+  border: 1px solid var(--divider);
+  color: var(--text-muted);
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lang-toggle:hover {
+  border-color: var(--accent);
+  color: var(--white);
+}
+
+.lang-toggle .active {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.lang-toggle .separator {
+  color: var(--text-muted);
+  opacity: 0.4;
+}
+
+@media (max-width: 768px) {
+  .lang-toggle {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+  }
+}

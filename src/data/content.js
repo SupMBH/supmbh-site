@@ -1,96 +1,80 @@
 import { CURRENT_YEAR } from './year';
 
-export const presentation = `Double profil rare alliant Droit du numérique (Bac+5, IEJ Aix-Marseille) et Développement Logiciel (Bac+4, RNCP niv. 6). 15 ans de terrain multi-acteurs — industrie internationale, retail national, formation d'équipes — m'ont forgé une vision opérationnelle de la conformité, de la gouvernance SI et de la transformation digitale. Je combine la rigueur juridique et la compréhension technique pour piloter des projets complexes de bout en bout.`;
+export const presentation = `Je combine deux expertises rares dans le même profil : développement full-stack (Python, JavaScript, React, Node.js) et maîtrise du droit de la donnée (RGPD, AI Act, NIS2). J'automatise vos workflows tout en garantissant leur conformité juridique dès le premier jour. 15 ans de terrain multi-acteurs — industrie internationale, retail national, formation d'équipes — m'ont forgé une vision opérationnelle de la conformité et de la transformation digitale.`;
 
 export const expertises = [
   {
-    id: 'dpo',
-    title: 'DPO · Conformité & Gouvernance',
+    id: 'ai-automation',
+    title: 'Automatisation IA & Intégrations',
+    icon: '🤖',
+    desc: "Conception de workflows automatisés intégrant des LLMs (Claude, GPT) avec vos outils métier : CRM, email, bases de données. Chatbots intelligents, agents IA, automatisation de qualification de leads et de traitement documentaire.",
+    skills: [
+      'Python · n8n · Make.com',
+      'Claude API · OpenAI API',
+      'Chatbots & agents IA',
+      'Prompt Engineering',
+      'API Integration · Webhooks',
+      'Qualification de leads',
+      'Traitement documentaire',
+      'Automatisation no-code',
+    ],
+  },
+  {
+    id: 'gdpr-compliance',
+    title: 'Conformité RGPD & AI Act',
     icon: '🛡️',
-    desc: 'Pilotage de la conformité RGPD, NIS2, ePrivacy. Rédaction de DPIA, registres de traitements, politiques de sécurité SI. Formation et sensibilisation des équipes aux obligations réglementaires.',
+    desc: "Audits de conformité, rédaction de DPIA, politiques de confidentialité, registres de traitements. Spécialisation sur le déploiement d'IA conforme en Europe : évaluation des risques, documentation AI Act, garanties opérationnelles.",
     skills: [
-      'RGPD · NIS2 · ePrivacy',
+      'RGPD · AI Act · NIS2',
       'DPIA & analyses de risques',
-      'Registre des traitements',
+      'Registres de traitements',
+      'Politiques de confidentialité',
       'Audits de conformité',
-      'Politique de sécurité SI',
-      'Gestion des incidents',
-      'Droit du numérique',
-      'Sensibilisation & formation',
+      'Data Processing Agreements',
+      'Certification CNIL',
+      'Shadow AI & gouvernance',
     ],
   },
   {
-    id: 'cdp',
-    title: 'Chef de Projet IT & Transformation',
-    icon: '🚀',
-    desc: 'Cadrage, intégration SI, conduite du changement. Déploiement ERP complet, coordination multi-acteurs, résultats mesurés sur le terrain. AMOA, gouvernance et conformité.',
+    id: 'fullstack-dev',
+    title: 'Développement Full-Stack',
+    icon: '💻',
+    desc: "Développement d'applications web et d'intégrations techniques. Spécialisation en intégration d'APIs, webhooks, et microservices. Approche orientée business : besoins client, efficacité opérationnelle, maintenance durable.",
     skills: [
-      'Pilotage AMOA / MOE',
-      'Conduite du changement',
-      'Agile / Scrum / Waterfall',
-      'Gestion des risques',
-      'Analyse des besoins métier',
-      'Reporting & tableaux de bord',
-      'Power BI · Power Automate',
-      'ERP · CRM · APIs REST',
-    ],
-  },
-  {
-    id: 'cyber',
-    title: 'Gouvernance & Sécurité SI',
-    icon: '🔒',
-    desc: "Double socle technique et juridique appliqué à la sécurité des SI. Gouvernance, conformité réglementaire, analyse de risques : une approche transversale adaptée aux enjeux NIS2, RGPD et ISO 27001.",
-    skills: [
-      'Analyse de risques SI',
-      'Gouvernance & Conformité',
-      'Sécurité des réseaux',
-      'Audit de sécurité',
-      'Gestion des vulnérabilités',
-      'Linux · Réseaux TCP/IP',
-      'Python · Bash',
-      'Prompt Engineering IA',
+      'Python · JavaScript',
+      'React · Node.js',
+      'MongoDB · SQL',
+      'REST APIs · Webhooks',
+      'Git / GitHub',
+      'Linux · Bash',
+      'Testing (Jest, E2E)',
+      'Architecture logicielle',
     ],
   },
 ];
 
 export const experiences = [
   {
-    title: 'Consultant IT / Formateur – Gouvernance, Conformité & Formation',
+    title: 'Consultant AI Automation & Conformité RGPD',
     org: 'Indépendant',
     period: "2023 – Aujourd'hui",
     bullets: [
-      'Conseil RGPD/NIS2 pour PME : analyse des traitements, politiques de confidentialité, conformité WCAG',
-      'AMOA & transformation digitale : cahiers des charges, déploiement Agile, intégration APIs REST',
-      'Formations IA & Prompt Engineering · Soutien technique et enseignement (informatique, bonnes pratiques)',
-      '2 diplômes RNCP Bac+4 + Certification RGPD CNIL 6/6 modules · scores : 100/100/100/93/90/90 %',
+      'Conception et déploiement d\'automatisations IA pour PME : qualification de leads, génération documentaire, traitement de données',
+      'Conseil RGPD et AI Act : audits, DPIA, politiques de confidentialité, conformité des déploiements IA en Europe',
+      'Formations IA & Prompt Engineering pour équipes techniques et métier · sensibilisation cybersécurité',
+      'Développement full-stack (Python, React, Node.js) avec focus API integration et automatisation no-code (n8n, Make.com)',
+      '15 ans d\'expérience préalable en pilotage de projets industriels et retail international — déploiements ERP, coordination multi-acteurs, conduite du changement',
     ],
   },
   {
-    title: 'Chef de Projet IT – Responsable SI & Conformité',
-    org: 'Berezniki F.K.D',
-    period: '2017 – 2023',
-    bullets: [
-      'Déploiement ERP complet (production, RH, stocks, comptabilité) · réseau industriel · traçabilité code-barres',
-      'Politique sécurité SI · documentation des traitements · gestion des accès et incidents',
-      'Réduction pertes matière -10 % · tableaux de bord Power BI · conduite du changement · coordination multi-acteurs',
-    ],
-  },
-  {
-    title: 'Chargé de Projets – Conseiller Monde Projet',
+    title: 'Conseiller Projets Maison Complète',
     org: 'Leroy Merlin',
     period: '2010 – 2017',
     bullets: [
-      'Interface unique entre 5 parties prenantes · pilotage projets maison complète',
-      '4M€ CA · 1er France fidélisation 2 années consécutives',
-      'Veille réglementaire · conformité produit · formation équipes · accompagnement au changement',
-    ],
-  },
-  {
-    title: 'Manager',
-    org: 'Quick France',
-    period: '2006 – 2010',
-    bullets: [
-      "Pilotage CA/stocks · encadrement équipe · résolution d'incidents terrain",
+      '7M€+ de chiffre d\'affaires généré sur projets de rénovation et construction de maisons complètes',
+      '#1 France fidélisation 2 années consécutives sur 30 000+ employés',
+      'Interface unique client orchestrant tous les corps de métier (gros œuvre, second œuvre, finitions)',
+      'Consultative selling haut de gamme sur projets complexes multi-parties prenantes',
     ],
   },
 ];
@@ -98,12 +82,12 @@ export const experiences = [
 export const formations = [
   {
     title: 'Développeur Concepteur Logiciel',
-    org: 'OpenClassrooms · RNCP niv. 6 (Bac+4)',
+    org: 'OpenClassrooms · Bac+4 · Université accréditée WSCUC (même organisme que Stanford, UC Berkeley, UCLA)',
     date: '2024',
   },
   {
     title: 'Développeur Intégrateur Web',
-    org: 'OpenClassrooms · RNCP niv. 5 (Bac+2)',
+    org: 'OpenClassrooms · Bac+2 · Université accréditée WSCUC (même organisme que Stanford, UC Berkeley, UCLA)',
     date: '2023',
   },
   {
@@ -124,12 +108,13 @@ export const formations = [
 ];
 
 export const techSkills = [
-  'Python', 'Bash', 'SQL', 'JavaScript', 'React', 'Next.js',
-  'Linux', 'Réseaux TCP/IP', 'VPN', 'APIs REST',
+  'Python', 'JavaScript', 'React', 'Node.js', 'MongoDB', 'SQL',
+  'Claude API', 'OpenAI API', 'n8n', 'Make.com', 'Zapier',
+  'REST APIs', 'Webhooks', 'Git / GitHub', 'Linux', 'Bash',
+  'Prompt Engineering', 'Chatbot Development', 'Web Scraping',
   'Power BI', 'Power Automate', 'Microsoft 365',
-  'Git / GitHub', 'Jira', 'Notion', 'Kanban',
-  'ISO 27001', 'ITIL', 'DevSecOps',
-  'Prompt Engineering IA', 'Cloud', 'Figma', 'SEO / WCAG',
+  'ISO 27001', 'DevSecOps', 'Cloud',
+  'SEO / WCAG',
 ];
 
 export const languages = [
@@ -140,25 +125,48 @@ export const languages = [
 
 export const differentiators = [
   {
-    title: 'Double compétence rare : Droit + IT',
-    body: "Bac+5 Droit du numérique + Bac+4 Développement Logiciel — profil structurellement rare sur les segments DPO, AMOA et GRC. Capacité à dialoguer avec les juristes, les DSI et les métiers sans interprète.",
+    title: 'Double compétence rare : Code + Droit',
+    body: "Bac+5 Droit du numérique + développement full-stack — profil structurellement rare. Je parle aux DSI, aux juristes et aux métiers sans interprète et sans malentendu.",
   },
   {
-    title: 'Résultats terrain prouvés',
-    body: "ERP complet déployé en environnement industriel international, coordination 5+ parties prenantes, résultats mesurés : -10 % pertes matière, 1er France fidélisation Leroy Merlin. La théorie ne suffit pas — les résultats comptent.",
+    title: 'Résultats mesurables prouvés',
+    body: "7M€+ de CA documenté, classé #1 sur 30 000+ employés chez Leroy Merlin 2 années consécutives. ERP complet déployé en environnement industriel international. Je livre des résultats, pas des slides.",
   },
   {
-    title: 'Pédagogie & conduite du changement',
-    body: "Formateur confirmé : conception et animation de formations techniques et réglementaires. La conformité ne vaut que si les équipes l'appliquent — c'est ma valeur ajoutée.",
+    title: 'Conformité comme accélérateur, pas frein',
+    body: "Conseil RGPD et AI Act conçu comme investissement business. Chaque livrable renforce la crédibilité commerciale de l'organisation. La conformité ouvre des marchés, elle ne les ferme pas.",
   },
 ];
 
 export const navLinks = [
   { href: '#about', label: 'Profil' },
   { href: '#expertise', label: 'Expertises' },
-  { href: '#vision-dpo', label: 'Vision DPO' },
+  { href: '#vision-dpo', label: 'Vision' },
   { href: '#experience', label: 'Parcours' },
   { href: '#formations', label: 'Formations' },
   { href: '#skills', label: 'Compétences' },
   { href: '#contact', label: 'Contact' },
 ];
+
+
+export const heroHook = `La plupart des freelances en automatisation IA construisent vite. Je construis vite, et sans risque juridique pour votre activité.`;
+
+export const uiLabels = {
+  contactMe: 'Me contacter',
+  viewExpertise: 'Voir mes expertises',
+  viewUpwork: 'Voir mon profil Upwork',
+  letWorkTogether: 'Travaillons ensemble',
+  emailPrefix: '✉',
+  phonePrefix: '☎',
+  linkedInStatus: 'Compte clôturé',
+  linkedInWhy: 'Pourquoi ?',
+  linkedInReduce: 'Réduire',
+  linkedInIntro: 'Principaux incidents documentés sur LinkedIn :',
+  linkedInNotice: "J'ai fait le choix de quitter LinkedIn après une analyse des risques inhérents à la plateforme. En tant que consultant spécialisé en conformité RGPD et protection des données, cette décision est cohérente avec mes convictions.",
+  linkedIn2021: "Scraping massif via exploitation d'API : 700 millions de profils exposés (noms, emails, téléphones, parcours professionnels). LinkedIn a qualifié l'incident de « scraping » et non de « breach », mais les données ont été mises en vente sur des forums.",
+  linkedIn2024: "Sanctions de régulateurs européens pour usage abusif des données publicitaires. La CNIL a sanctionné une société tierce pour scraping de profils, confirmant que même des données « publiques » nécessitent des garanties strictes.",
+  linkedIn2025: "Découverte d'une base MongoDB exposée contenant 4,3 milliards d'enregistrements professionnels, incluant des données issues de LinkedIn : noms, postes, emails, téléphones, historiques d'emploi.",
+  linkedInConclusion: "Ces incidents illustrent un risque structurel : sur une plateforme où les données professionnelles sont publiques par design, la surface d'attaque pour le phishing ciblé, l'ingénierie sociale et l'usurpation d'identité professionnelle reste élevée. Limiter son exposition est une mesure d'hygiène numérique élémentaire.",
+  footerMain: 'Antoine Naget — AI Automation · GDPR Compliance · Full-Stack Development',
+  footerCredit: 'Site conçu et développé par Antoine Naget',
+};

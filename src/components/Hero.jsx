@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import profile from '../data/profile';
+import { useLanguage } from '../context/LanguageContext';
+import { getProfile, getHeroHook, getUiLabels } from '../data/i18n';
 
 /* ── Dense stellar particles with mouse interaction ────────────────────── */
 function ParticlesBg() {
@@ -52,14 +53,10 @@ function ParticlesBg() {
 
       ctx.clearRect(0, 0, w, h);
 
-      // Update & draw connections
       for (let i = 0; i < particles.length; i++) {
         const pi = particles[i];
-
-        // Twinkle
         pi.opacity = pi.baseOpacity + Math.sin(time * pi.twinkleSpeed + pi.twinklePhase) * 0.2;
 
-        // Mouse repulsion
         const dmx = pi.x - mx;
         const dmy = pi.y - my;
         const distMouse = Math.sqrt(dmx * dmx + dmy * dmy);
@@ -69,17 +66,14 @@ function ParticlesBg() {
           pi.y += (dmy / distMouse) * force;
         }
 
-        // Move
         pi.x += pi.dx;
         pi.y += pi.dy;
 
-        // Wrap around edges
         if (pi.x < -10) pi.x = w + 10;
         if (pi.x > w + 10) pi.x = -10;
         if (pi.y < -10) pi.y = h + 10;
         if (pi.y > h + 10) pi.y = -10;
 
-        // Draw connections
         for (let j = i + 1; j < particles.length; j++) {
           const pj = particles[j];
           const dx = pi.x - pj.x;
@@ -96,7 +90,6 @@ function ParticlesBg() {
           }
         }
 
-        // Draw particle with glow
         const glowAlpha = Math.max(0, pi.opacity * 0.3);
         ctx.beginPath();
         ctx.arc(pi.x, pi.y, pi.r * 3, 0, Math.PI * 2);
@@ -184,6 +177,10 @@ function ScrollCue() {
 /* ── Hero ──────────────────────────────────────────────────────────────── */
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);
+  const { lang } = useLanguage();
+  const profile = getProfile(lang);
+  const heroHook = getHeroHook(lang);
+  const ui = getUiLabels(lang);
 
   useEffect(() => {
     const t = setTimeout(() => setLoaded(true), 100);
@@ -224,20 +221,16 @@ export default function Hero() {
 
         <p className="hero-subtitle stagger-2">{profile.tagline}</p>
 
-        <p className="hero-personal stagger-3">
-          Un projet de conformité ou de transformation IT se pilote avec autant d’exigence technique que d’aptitudes terrain : 
-          accompagnement du changement, pédagogie et transmission de compétences.
-          Cette conviction, associée à mon plaisir d’enseigner, guide mes missions depuis 15 ans.
-        </p>
+        <p className="hero-personal stagger-3">{heroHook}</p>
 
         <p className="hero-location stagger-4">{profile.location}</p>
 
         <div className="hero-cta stagger-5">
           <a href="#contact" className="btn btn-primary">
-            Me contacter
+            {ui.contactMe}
           </a>
           <a href="#expertise" className="btn btn-outline">
-            Voir mes expertises
+            {ui.viewExpertise}
           </a>
         </div>
       </div>
