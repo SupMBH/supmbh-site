@@ -74,7 +74,7 @@ export const experiences = [
       'Full ERP deployment (production, HR, inventory, accounting) in an international industrial environment',
       'Reduced material losses by 10% through process optimization and Power BI dashboards',
       'Defined IT security policy, documented data processing activities, managed access and incidents',
-      'Multi-stakeholder coordination: management, technical teams, vendors · change management',
+      'Multi-stakeholder coordination (management, technical teams, vendors) and change management',
     ],
   },
   {
