@@ -1,7 +1,11 @@
 import FadeSection from './FadeSection';
-import { formations } from '../data/content';
+import { useLanguage } from '../context/LanguageContext';
+import { getFormations } from '../data/i18n';
+
 
 export default function Formations() {
+  const { lang } = useLanguage();
+  const formations = getFormations(lang);
   return (
     <FadeSection className="section" id="formations">
       <h2 className="section-title">Formations & Certifications</h2>
