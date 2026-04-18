@@ -22,19 +22,6 @@ export default function Nav() {
           A.N
         </a>
 
-        <div className="nav-right">
-          <LanguageToggle />
-          <button
-            className="burger"
-            onClick={() => setOpen(!open)}
-            aria-expanded={open}
-            aria-controls="nav-menu"
-            aria-label={lang === 'fr' ? 'Menu de navigation' : 'Navigation menu'}
-          >
-            {open ? '✕' : '☰'}
-          </button>
-        </div>
-
         <ul
           className={`nav-links${open ? ' open' : ''}`}
           id="nav-menu"
@@ -48,6 +35,19 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+
+        <div className="nav-right">
+          <LanguageToggle />
+          <button
+            className="burger"
+            onClick={() => setOpen(!open)}
+            aria-expanded={open}
+            aria-controls="nav-menu"
+            aria-label={lang === 'fr' ? 'Menu de navigation' : 'Navigation menu'}
+          >
+            {open ? '✕' : '☰'}
+          </button>
+        </div>
       </div>
     </nav>
   );

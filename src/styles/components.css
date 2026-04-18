@@ -1028,3 +1028,29 @@
     font-size: 0.7rem;
   }
 }
+
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.lang-toggle {
+  min-width: 70px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+
+.nav-logo {
+  margin-right: 14rem;
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    margin-right: 0;
+  }
+}
