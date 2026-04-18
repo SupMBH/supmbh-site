@@ -1,8 +1,14 @@
 import { useState, useEffect, useRef } from 'react';
 import FadeSection from './FadeSection';
-import { techSkills, languages, differentiators } from '../data/content';
+import { useLanguage } from '../context/LanguageContext';
+import { getTechSkills, getLanguages, getDifferentiators } from '../data/i18n';
+
 
 export default function Skills() {
+  const { lang } = useLanguage();
+  const techSkills = getTechSkills(lang);
+  const languages = getLanguages(lang);
+  const differentiators = getDifferentiators(lang);
   const [animateLangs, setAnimateLangs] = useState(false);
   const langRef = useRef(null);
 
