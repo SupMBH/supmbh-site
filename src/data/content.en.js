@@ -141,7 +141,7 @@ export const differentiators = [
   },
   {
     title: 'Proven measurable results',
-    body: "€7M+ in documented revenue, ranked #1 out of 30,000+ employees at Leroy Merlin for 2 consecutive years. Full ERP deployed in international industrial environment. I deliver results, not slides.",
+    body: "€4M+ in documented revenue, ranked #1 out of 30,000+ employees at Leroy Merlin for 2 consecutive years. Full ERP deployed in international industrial environment. I deliver results, not slides.",
   },
   {
     title: 'Compliance as accelerator, not brake',

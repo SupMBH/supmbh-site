@@ -140,7 +140,7 @@ export const differentiators = [
   },
   {
     title: 'Résultats mesurables prouvés',
-    body: "7M€+ de CA documenté, classé #1 sur 30 000+ employés chez Leroy Merlin 2 années consécutives. ERP complet déployé en environnement industriel international. Je livre des résultats, pas des slides.",
+    body: "4M€+ de CA documenté, classé #1 sur 30 000+ employés chez Leroy Merlin 2 années consécutives. ERP complet déployé en environnement industriel international. Je livre des résultats, pas des slides.",
   },
   {
     title: 'Conformité comme accélérateur, pas frein',
