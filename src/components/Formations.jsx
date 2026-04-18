@@ -1,14 +1,15 @@
 import FadeSection from './FadeSection';
 import { useLanguage } from '../context/LanguageContext';
-import { getFormations } from '../data/i18n';
+import { getFormations, getUiLabels } from '../data/i18n';
 
 
 export default function Formations() {
   const { lang } = useLanguage();
+  const ui = getUiLabels(lang);
   const formations = getFormations(lang);
   return (
     <FadeSection className="section" id="formations">
-      <h2 className="section-title">Formations & Certifications</h2>
+      <h2 className="section-title">{ui.sectionFormations}</h2>
 
       <div className="formations-list">
         {formations.map((f, i) => (
