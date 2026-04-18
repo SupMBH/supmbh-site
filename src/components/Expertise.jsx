@@ -1,7 +1,10 @@
 import FadeSection from './FadeSection';
-import { expertises } from '../data/content';
+import { useLanguage } from '../context/LanguageContext';
+import { getExpertises } from '../data/i18n';
 
 export default function Expertise() {
+  const { lang } = useLanguage();
+  const expertises = getExpertises(lang);
   return (
     <FadeSection className="section" id="expertise">
       <h2 className="section-title">Domaines d'expertise</h2>
