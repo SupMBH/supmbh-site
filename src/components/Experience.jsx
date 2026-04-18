@@ -1,7 +1,11 @@
 import FadeSection from './FadeSection';
-import { experiences } from '../data/content';
+import { useLanguage } from '../context/LanguageContext';
+import { getExperiences } from '../data/i18n';
+
 
 export default function Experience() {
+  const { lang } = useLanguage();
+  const experiences = getExperiences(lang);
   return (
     <FadeSection className="section" id="experience">
       <h2 className="section-title">Parcours professionnel</h2>
