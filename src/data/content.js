@@ -152,6 +152,16 @@ export const navLinks = [
 export const heroHook = `La plupart des freelances en automatisation IA construisent vite. Je construis vite, et sans risque juridique pour votre activité.`;
 
 export const uiLabels = {
+  sectionProfile: 'Profil',
+  sectionExpertise: "Domaines d'expertise",
+  sectionVision: "Mon regard sur l'IA & la conformité",
+  sectionExperience: 'Parcours professionnel',
+  sectionFormations: 'Formations & Certifications',
+  sectionSkills: 'Compétences techniques',
+  languagesLabel: 'Langues',
+  differentiatorsLabel: 'Atouts différenciants',
+  visionIssueLabel: "L'enjeu",
+  visionApproachLabel: 'Mon approche',
   contactMe: 'Me contacter',
   viewExpertise: 'Voir mes expertises',
   viewUpwork: 'Voir mon profil Upwork',

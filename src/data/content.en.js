@@ -152,6 +152,16 @@ export const navLinks = [
 export const heroHook = `Most AI automation freelancers build fast systems. I build fast systems that won't get your business fined.`;
 
 export const uiLabels = {
+  sectionProfile: 'Profile',
+  sectionExpertise: 'Areas of expertise',
+  sectionVision: 'My perspective on AI & compliance',
+  sectionExperience: 'Professional experience',
+  sectionFormations: 'Education & Certifications',
+  sectionSkills: 'Technical skills',
+  languagesLabel: 'Languages',
+  differentiatorsLabel: 'Key differentiators',
+  visionIssueLabel: 'The challenge',
+  visionApproachLabel: 'My approach',
   contactMe: 'Contact me',
   viewExpertise: 'Explore my expertise',
   viewUpwork: 'View my Upwork profile',
