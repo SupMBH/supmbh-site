@@ -1,13 +1,15 @@
 import FadeSection from './FadeSection';
 import { useLanguage } from '../context/LanguageContext';
-import { getExpertises } from '../data/i18n';
+import { getExpertises, getUiLabels } from '../data/i18n';
 
 export default function Expertise() {
+ 
   const { lang } = useLanguage();
+  const ui = getUiLabels(lang);
   const expertises = getExpertises(lang);
   return (
     <FadeSection className="section" id="expertise">
-      <h2 className="section-title">Domaines d'expertise</h2>
+      <h2 className="section-title">{ui.sectionExpertise}</h2>
 
       <div className="expertise-grid">
         {expertises.map((e) => (
