@@ -63,7 +63,17 @@ export const experiences = [
       'Conseil RGPD et AI Act : audits, DPIA, politiques de confidentialité, conformité des déploiements IA en Europe',
       'Formations IA & Prompt Engineering pour équipes techniques et métier · sensibilisation cybersécurité',
       'Développement full-stack (Python, React, Node.js) avec focus API integration et automatisation no-code (n8n, Make.com)',
-      '15 ans d\'expérience préalable en pilotage de projets industriels et retail international — déploiements ERP, coordination multi-acteurs, conduite du changement',
+    ],
+  },
+  {
+    title: 'Chef de Projet IT & Responsable Conformité',
+    org: 'F.K.D',
+    period: '2017 – 2022',
+    bullets: [
+      'Déploiement ERP complet (production, RH, stocks, comptabilité) en environnement industriel international',
+      'Réduction de 10% des pertes matière via optimisation des processus et tableaux de bord Power BI',
+      "Définition de la politique de sécurité SI, documentation des traitements, gestion des accès et incidents",
+      'Coordination multi-acteurs : directions, équipes techniques, prestataires · conduite du changement',
     ],
   },
   {
