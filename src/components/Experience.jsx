@@ -1,14 +1,15 @@
 import FadeSection from './FadeSection';
 import { useLanguage } from '../context/LanguageContext';
-import { getExperiences } from '../data/i18n';
+import { getExperiences, getUiLabels } from '../data/i18n';
 
 
 export default function Experience() {
   const { lang } = useLanguage();
+  const ui = getUiLabels(lang);
   const experiences = getExperiences(lang);
   return (
     <FadeSection className="section" id="experience">
-      <h2 className="section-title">Parcours professionnel</h2>
+      <h2 className="section-title">{ui.sectionExperience}</h2>
 
       <div className="timeline">
         {experiences.map((exp, i) => (
