@@ -4,9 +4,9 @@ import FadeSection from './FadeSection';
 import { CURRENT_YEAR } from '../data/year';
 import profile from '../data/profile';
 import { useLanguage } from '../context/LanguageContext';
-import { getVisionIntro, getVisionBlocks, getVisionConclusion } from '../data/i18n';
+import { getVisionIntro, getVisionBlocks, getVisionConclusion, getUiLabels } from '../data/i18n';
 
-function DpoBlock({ block, index }) {
+function DpoBlock({ block, index, labels }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -21,11 +21,11 @@ function DpoBlock({ block, index }) {
       {expanded && (
         <div className="dpo-block-body">
           <div className="dpo-block-section">
-            <span className="dpo-block-label">L'enjeu</span>
+            <span className="dpo-block-label">{labels.issue}</span>
             <p>{block.position}</p>
           </div>
           <div className="dpo-block-section">
-            <span className="dpo-block-label">Mon approche</span>
+            <span className="dpo-block-label">{labels.approach}</span>
             <p>{block.approach}</p>
           </div>
         </div>
@@ -39,9 +39,11 @@ export default function VisionDpo() {
   const visionDpoIntro = getVisionIntro(lang);
   const visionDpoBlocks = getVisionBlocks(lang);
   const visionDpoConclusion = getVisionConclusion(lang);
+  const ui = getUiLabels(lang);
+
   return (
     <FadeSection className="section" id="vision-dpo">
-      <h2 className="section-title">Être DPO en {CURRENT_YEAR}</h2>
+      <h2 className="section-title">{ui.sectionVision} {CURRENT_YEAR}</h2>
 
       <div className="dpo-intro">
         <p>{visionDpoIntro}</p>
@@ -49,14 +51,13 @@ export default function VisionDpo() {
 
       <div className="dpo-blocks">
         {visionDpoBlocks.map((block, i) => (
-          <DpoBlock key={block.id} block={block} index={i} />
+          <DpoBlock key={block.id} block={block} index={i} labels={{ issue: ui.visionIssueLabel, approach: ui.visionApproachLabel }} />
         ))}
       </div>
 
       <div className="dpo-conclusion">
         <p>{visionDpoConclusion}</p>
-        <a href="#contact" className="btn btn-primary" style={{ marginTop: '1.25rem' }}>
-          Me contacter
+        <a href="#contact" className="btn btn-primary" style={{ marginTop: '1.25rem' }}>  {ui.contactMe}
         </a>
       </div>
     </FadeSection>
