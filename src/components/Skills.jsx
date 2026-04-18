@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import FadeSection from './FadeSection';
 import { useLanguage } from '../context/LanguageContext';
-import { getTechSkills, getLanguages, getDifferentiators } from '../data/i18n';
+import { getTechSkills, getLanguages, getDifferentiators, getUiLabels } from '../data/i18n';
 
 
 export default function Skills() {
@@ -11,6 +11,7 @@ export default function Skills() {
   const differentiators = getDifferentiators(lang);
   const [animateLangs, setAnimateLangs] = useState(false);
   const langRef = useRef(null);
+  const ui = getUiLabels(lang);
 
   useEffect(() => {
     const el = langRef.current;
@@ -32,7 +33,7 @@ export default function Skills() {
 
   return (
     <FadeSection className="section" id="skills">
-      <h2 className="section-title">Compétences techniques</h2>
+      <h2 className="section-title">{ui.sectionSkills}</h2>
 
       <div className="tech-grid" style={{ marginBottom: '2.5rem' }}>
         {techSkills.map((s) => (
@@ -43,7 +44,7 @@ export default function Skills() {
       </div>
 
       <h3 style={{ fontSize: '1.1rem', color: 'var(--white)', marginBottom: '1rem', fontWeight: 600 }}>
-        Langues
+        {ui.languagesLabel}
       </h3>
 
       <div className="langs" ref={langRef}>
@@ -71,7 +72,7 @@ export default function Skills() {
       </div>
 
       <h3 style={{ fontSize: '1.1rem', color: 'var(--white)', margin: '2.5rem 0 1rem', fontWeight: 600 }}>
-        Atouts différenciants
+        {ui.differentiatorsLabel}
       </h3>
 
       <div className="diff-list">
