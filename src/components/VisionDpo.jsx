@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import FadeSection from './FadeSection';
-import { visionDpoIntro, visionDpoBlocks, visionDpoConclusion } from '../data/visionDpo';
+
 import { CURRENT_YEAR } from '../data/year';
 import profile from '../data/profile';
+import { useLanguage } from '../context/LanguageContext';
+import { getVisionIntro, getVisionBlocks, getVisionConclusion } from '../data/i18n';
 
 function DpoBlock({ block, index }) {
   const [expanded, setExpanded] = useState(false);
@@ -33,6 +35,10 @@ function DpoBlock({ block, index }) {
 }
 
 export default function VisionDpo() {
+  const { lang } = useLanguage();
+  const visionDpoIntro = getVisionIntro(lang);
+  const visionDpoBlocks = getVisionBlocks(lang);
+  const visionDpoConclusion = getVisionConclusion(lang);
   return (
     <FadeSection className="section" id="vision-dpo">
       <h2 className="section-title">Être DPO en {CURRENT_YEAR}</h2>
