@@ -54,6 +54,9 @@ export default function Contact() {
   const profile = getProfile(lang);
   const ui = getUiLabels(lang);
 
+  const telHref = "tel:" + profile.phone.replace(/\s/g, '');
+  const mailHref = "mailto:" + profile.email;
+
   return (
     <FadeSection className="section" id="contact" style={{ paddingBottom: '4rem' }}>
       <h2 className="section-title">Contact</h2>
@@ -73,6 +76,14 @@ export default function Contact() {
               {ui.viewUpwork}
             </a>
           ) : null}
+
+          <a href={mailHref} className="contact-link">
+            {ui.emailPrefix} {profile.email}
+          </a>
+
+          <a href={telHref} className="contact-link">
+            {ui.phonePrefix} {profile.phone}
+          </a>
         </div>
 
         <LinkedInNotice />
